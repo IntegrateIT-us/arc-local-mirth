@@ -1,0 +1,106 @@
+<map>
+  <entry>
+    <string>Undeploy</string>
+    <string>// This script executes once for each deploy, undeploy, or redeploy task
+// if at least one channel was undeployed
+// You only have access to the globalMap here to persist data
+return;</string>
+  </entry>
+  <entry>
+    <string>Postprocessor</string>
+    <string>// This script executes once after a message has been processed
+// This script applies across all channels
+// Responses returned from here will be stored as &quot;Postprocessor&quot; in the response map
+// You have access to &quot;response&quot;, if returned from the channel postprocessor
+return;</string>
+  </entry>
+  <entry>
+    <string>Deploy</string>
+    <string>// This script executes once for each deploy or redeploy task
+// You only have access to the globalMap here to persist data
+
+//Global Settings List
+//VARIALBES HERE ARE SET ONLY WHEN A CHANNEL IS DEPLOYED. REDEPLOY YOUR CHANNEL AFTER SAVING A CHANGE HERE.
+//How to...:
+//		1. Add a variable: copy an existing variable line and replace the variable so it is unique and the value is set. &quot;save scripts&quot;
+//		2. Modify a variable value: the 2nd .put parameter is the global value. modify and &quot;save scripts&quot;.
+//		3. Delete a variable: copy the mapping line and blank out the value. &quot;save scripts&quot;. Verify that global is removed from global list on dashboard.
+//		4. Call a variable: (note that javascript and channel contexts require different notation)
+//			Javascript: $(&apos;variableName&apos;) or globalMap.get(&apos;variableName&apos;)
+//			Channel views: ${variableName} or globalMap.get(&apos;variableName&apos;)
+//				${} &lt;- this is called &apos;velocity notation&apos;
+
+//VARIABLES IN USE (DO NOT MODIFY UNTIL CHECKING DEPENDANT CHANNELS):
+//file drop/pickup locations
+/*
+	globalMap.put(&apos;fileMeditechFlatFileIn&apos;,&apos;/folders/testtmp/meditechLoad/in&apos;);
+	globalMap.put(&apos;fileMeditechFlatFileOut&apos;,&apos;/folders/testtmp/meditechLoad/out&apos;);
+	globalMap.put(&apos;fileMirthConnectArchiveIn&apos;,&apos;/folders/network/archive/MessageArchive/Test2&apos;);
+	globalMap.put(&apos;fileMirthConnectArchiveOut&apos;,&apos;/folders/network/archive/MessageArchive/Test2Out&apos;);
+*/
+
+/* Add Tables and specific columns to build SELECT statements into arrTableColumns */
+var arrTableColumns= [[&apos;document_header:document_id_root, document_templateId_root, document_effectiveTime_value&apos;],[&apos;document_patient_demographics:patient_identifier_uuid, document_id_root, document_id_extension, patient_name_family, patient_name_given&apos;]];
+globalMap.put(&apos;arrTableColumns&apos;,arrTableColumns);
+
+globalMap.put(&apos;mysqlDriverString&apos;,&apos;com.mysql.jdbc.Driver&apos;);
+globalMap.put(&apos;mysqlUrlLocalHostString&apos;,&apos;jdbc:mysql://localhost:3306/mirthdb&apos;);
+//globalMap.put(&apos;mysqlUser&apos;,&apos;admin&apos;);
+//globalMap.put(&apos;mysqlPassword&apos;,&apos;admin&apos;);
+globalMap.put(&apos;mysqlUser&apos;,&apos;readwriter&apos;);
+globalMap.put(&apos;mysqlPassword&apos;,&apos;P@$$w0rd&apos;);
+globalMap.put(&apos;allscriptsXSLTFile&apos;,&apos;C:/Mirth Connect/src/xslt&apos;);
+
+// Anonymize Patient Demographic Data 
+globalMap.put(&apos;gPatientIdPrefix&apos;,&apos;1111&apos;);
+globalMap.put(&apos;gPatientLastName&apos;,&apos;TESTLAST&apos;);
+globalMap.put(&apos;gPatientFirstName&apos;,&apos;ORTHOBETHESDA&apos;);
+globalMap.put(&apos;gPatientDateOfBirth&apos;,&apos;19700101&apos;);
+globalMap.put(&apos;gPatientGender&apos;,&apos;O&apos;);
+
+const arrLocationUnits= new Array(&quot;ABC&quot;,&quot;BCD&quot;,&quot;CDE&quot;,&quot;DEF&quot;,&quot;EFG&quot;,&quot;FGH&quot;,&quot;GHI&quot;,&quot;HIJ&quot;,&quot;IJK&quot;,&quot;JKL&quot;);
+globalMap.put(&apos;gLocationUnits&apos;,arrLocationUnits);
+
+/*
+var devEnvConfig = {
+   baseLogDir: &apos;C:/Adaptamed_Archive/EHR_Request_Archive&apos;,devEnvIp:&apos;;&apos;
+};
+*/
+globalMap.put(&apos;removeOBXFooterHeader&apos;,&apos;Option2&apos;);
+// ... Start MobileMD
+// ITI Message Default Values
+globalMap.put(&apos;itiIheProcessingCode&apos;,&apos;P&apos;);
+globalMap.put(&apos;itiIheProcessingModeCode&apos;,&apos;T&apos;);
+globalMap.put(&apos;hl7Version&apos;,&apos;2.5.1&apos;);
+// set environment TEST or PROD
+globalMap.put(&apos;environment&apos;,&apos;PROD&apos;);
+// set Global Affinity Domain OIDs
+globalMap.put(&apos;MobileMDAffinityDomainOID&apos;,&apos;2.16.840.1.113883.3.660.1.5800.1.1&apos;);
+// set Original Document and Local AssigningAuthority OIDs
+globalMap.put(&apos;BerwickRootOID&apos;,&apos;2.16.840.1.113883.3.1579.834848495353.155&apos;);
+globalMap.put(&apos;TylerRootOID&apos;,&apos;2.16.840.1.113883.3.1579.834848485653.85&apos;);
+// set Document SourceOIDs
+globalMap.put(&apos;TestSourceOID&apos;,&apos;1.3.6.1.4.1.37646.1.3.8.1&apos;);
+globalMap.put(&apos;ProdSourceOID&apos;,&apos;1.3.6.1.4.1.37646.2.3.8.1&apos;);
+// set Berwick local AssigningAuthorityOID
+globalMap.put(&apos;TestBerwickMRNOID&apos;,&apos;1.3.6.1.4.1.37646.1.3.7.14&apos;);
+globalMap.put(&apos;ProdBerwickMRNOID&apos;,&apos;1.3.6.1.4.1.37646.2.3.7.14&apos;);
+// set Tyler local AssigningAuthorityOID
+globalMap.put(&apos;TestTylerMRNOID&apos;,&apos;1.3.6.1.4.1.37646.1.3.7.15&apos;);
+globalMap.put(&apos;ProdTylerMRNOID&apos;,&apos;1.3.6.1.4.1.37646.2.3.7.15&apos;);
+// ... End MobileMD
+
+// Archive Location
+// globalMap.put(&apos;baseLogDir&apos;,devEnvConfig.baseLogDir);
+
+globalMap.put(&apos;defaultPhoneNumber&apos;,&apos;(345)123-4567&apos;);
+
+return;</string>
+  </entry>
+  <entry>
+    <string>Preprocessor</string>
+    <string>// Modify the message variable below to pre process data
+// This script applies across all channels
+return message;</string>
+  </entry>
+</map>

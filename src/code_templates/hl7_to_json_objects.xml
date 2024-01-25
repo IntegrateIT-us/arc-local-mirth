@@ -1,0 +1,4127 @@
+<codeTemplateLibrary version="3.12.0">
+  <id>e71cb874-bea8-4477-9ab5-0f7ae4a9b6f4</id>
+  <name>Caregility</name>
+  <revision>27</revision>
+  <lastModified>
+    <time>1690987207645</time>
+    <timezone>America/Chicago</timezone>
+  </lastModified>
+  <description>Conversion HL7v2 to Javascript objects Library</description>
+  <includeNewChannels>false</includeNewChannels>
+  <enabledChannelIds>
+    <string>5c5b6b2c-f3fd-456d-a90d-d684b5fb061e</string>
+    <string>ba9dcc01-6b1c-4fc3-afc4-cf1c5da9a8aa</string>
+    <string>f7c77a5d-b086-4aed-aa56-e72984abd5ea</string>
+    <string>a6fc8ba1-0134-4d1a-a341-cd9a2f295595</string>
+    <string>a45d1db0-9b84-49d3-b26b-243dbf2a4f70</string>
+    <string>d6ea31a1-1aa6-4a53-adde-10a1bcdcd3c5</string>
+    <string>4966bc7c-223c-4c44-8f71-4625cfcc0cc0</string>
+    <string>72383579-097e-4205-b030-ce272c90b835</string>
+    <string>a2b31875-5c31-4052-938f-a69550a8cb55</string>
+    <string>a6ec1677-5012-430f-bcbc-f41fe39ecf1f</string>
+  </enabledChannelIds>
+  <disabledChannelIds>
+    <string>c5aa527b-0e36-4790-8302-e1a6a472455e</string>
+    <string>4e15d4c9-43b4-4d2c-9185-701707cd2f6a</string>
+    <string>65d47b29-67e5-4533-917c-337880fb8b17</string>
+    <string>b7f455da-a5a4-4c75-be8f-d6f2c3561ac8</string>
+    <string>42b2b012-ffc4-41ba-a71e-00fbd1cc1c67</string>
+    <string>ead4368c-a612-459c-950e-50e49df05d9b</string>
+    <string>81988bfb-2e74-4e25-ac01-1a000e027e97</string>
+    <string>4964d3cc-7004-41c7-a704-da97ac92caf3</string>
+    <string>954d2af0-df2c-46c6-95bc-02661a8d4424</string>
+    <string>fd14f323-1f60-4ec5-b3e1-6ce8248bbcf3</string>
+    <string>e248ef99-284c-41f3-adac-d7b43433b16f</string>
+    <string>6910529c-6cd1-4838-9a4f-d3c84faa2866</string>
+    <string>8913e845-1fff-427c-bec0-e0a01d131f89</string>
+    <string>19a0dcf7-3736-4b25-9049-80301c6cd04d</string>
+    <string>32516e02-db8c-47f3-aba9-adfff1ea28c2</string>
+    <string>f1688a2f-ece0-4292-b5f9-e56c50b6bc5a</string>
+    <string>ed58a744-1f83-44aa-ad23-feef56e2f5e6</string>
+    <string>4a98f7b0-d1f3-478d-ad65-550f8287fe24</string>
+    <string>7a3b0715-12e0-4803-aa51-c1a947ef9b66</string>
+    <string>dff92eca-e23d-4802-8e3c-023f3af3e640</string>
+    <string>a3e80233-747a-4ce0-9f8f-59dcbe8e2ca6</string>
+    <string>0ace74f9-8ee8-45a5-8093-8d5bb95dae90</string>
+    <string>32ea3c4a-9c59-4482-beb2-22d729e5e379</string>
+    <string>a827a980-9c7f-410c-893a-141429f7b30a</string>
+    <string>fba4345d-b56d-4b31-802c-cdac2248902d</string>
+    <string>9ba29622-ed1f-4a34-9cbe-6f3df0eb3026</string>
+    <string>88f9a267-e37f-418d-aaf2-d077b7a0cdca</string>
+    <string>37b05d6c-c044-4394-a60a-deaee676ce0d</string>
+    <string>71368dee-5964-4073-bab7-ae0fd3ae90b0</string>
+    <string>4c3b5879-a8d9-48be-83cc-5f7c5777a188</string>
+    <string>c65d1ffa-65af-4ee8-803a-2f32b201889d</string>
+    <string>5c763fad-3eae-4e87-b944-0dbfe25814e0</string>
+    <string>3792b059-e098-436c-81fe-23502ef5042b</string>
+    <string>8a4eb453-fc7a-484a-8e15-422d9b490edf</string>
+    <string>a757905f-315a-43be-a624-38780a3d7574</string>
+    <string>1c6037e0-7bf9-41ae-b896-5be7b77e711f</string>
+    <string>631f9a02-6b74-4ecd-9582-221b98a0450e</string>
+    <string>c2277647-41dc-4e15-bce4-2ae23cec064b</string>
+    <string>c1fd4789-03e5-4ec3-91d2-cdded4b13365</string>
+    <string>318f77fc-a631-48e0-8a4e-a87831bd81a7</string>
+    <string>38e80069-5a80-4483-9a22-02c928973719</string>
+    <string>77033047-c5e7-4308-b2ed-d361923ed9a2</string>
+    <string>2e0d9b6c-294f-4506-8632-dc4622b4f651</string>
+    <string>ab7d9121-bd5f-47c1-964a-53531cd178dd</string>
+    <string>bfc00235-7e2e-457a-b27f-e5288e9c28c4</string>
+    <string>754a8caa-2161-45d8-b261-e32d8b0fb044</string>
+    <string>9370b181-aa9c-4db3-b7dc-2cd81cc91fdd</string>
+    <string>e678dbf5-f021-43dc-84ae-967500d5c31a</string>
+    <string>7741037b-845e-4e6d-b6aa-c9f249b06084</string>
+    <string>c65024ed-4660-4423-9636-cb6309cae138</string>
+    <string>0972a85f-5ad7-4a93-88e1-5f991b7f7879</string>
+    <string>3fdef7e5-20e2-4e6f-aad4-a156ddb2e5e2</string>
+    <string>a25fa941-8ba3-47eb-81d1-24c9e45fe29d</string>
+    <string>1b12c7a8-abee-4c24-85a4-d3b447e9d280</string>
+    <string>5cfc8ad8-0fb2-48bf-a318-1aabd86cf60e</string>
+    <string>10ef3f18-f1c1-495c-80be-026eb56436c5</string>
+    <string>c15d4352-13b2-4698-a771-b3593449d7ba</string>
+    <string>64e32643-e41c-4986-9550-c634cb02f9ba</string>
+    <string>347deee2-a3c1-4542-bc3e-c619defe0b64</string>
+    <string>9e040198-05cf-11e8-ba89-0ed5f89f718b</string>
+    <string>dc8e6472-bc7e-4ebe-a8dd-968b791e2975</string>
+    <string>66487d57-e34e-4a9a-8296-e62a66d3ab8b</string>
+    <string>99b43124-34ef-4ead-a348-ef0ac0a52539</string>
+    <string>4c2e73a8-aabe-4c04-9ba5-50ab49d3cb95</string>
+    <string>0df5acd6-0251-4546-9d35-ed7f1515e00b</string>
+    <string>db4e2d12-f41b-4da9-87b8-a1feb4c29054</string>
+    <string>42e730bb-0721-435e-8dcf-d25d6d5d1dc6</string>
+    <string>c90c935e-e3de-4ffe-839f-5560b39f07fb</string>
+    <string>18803b99-6545-4d09-9277-a559ee2e94fd</string>
+    <string>5231fded-a3aa-44e8-bd77-3ad84d39e1d2</string>
+    <string>89faf430-5bd7-4440-9ed0-4b02d3462403</string>
+  </disabledChannelIds>
+  <codeTemplates>
+    <codeTemplate version="3.12.0">
+      <id>727b91fb-5d82-437c-aa92-6eba252ef290</id>
+      <name>convertAddressToJSON</name>
+      <revision>3</revision>
+      <lastModified>
+        <time>1689982257847</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Extended Address (XAD) data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 12345 WEST MAIN STREET^^CARMEL^IN^46032)
+	@return {object} objAddress- this contains the HL7 Address (XAD) element into a single objAddress JSON object.
+	(e.g. 
+	{ Address {
+		&quot;StreetAddress&quot;=&quot;12345 WEST MAIN STREET&quot;,
+		&quot;OtherDesignation&quot;=&quot;RX&quot;,
+		&quot;City&quot;=&quot;CARMEL&quot;,
+		&quot;StateOrProvince&quot;=&quot;IN&quot;,
+		&quot;ZipOrPostalCode&quot;=&quot;46032&quot;,
+		&quot;Country&quot;=&quot;&quot;,
+		&quot;AddressType&quot;=&quot;&quot;,
+		&quot;OtherGeographicDesignation&quot;=&quot;&quot;,
+		&quot;CountyParishCode&quot;=&quot;&quot;,
+		&quot;CensusTract&quot;=&quot;&quot;,
+		&quot;AddressRepresentationCode&quot;=&quot;&quot;,
+		&quot;AddressValidityRange&quot;=&quot;&quot;
+	})
+**/
+function convertAddressToJSON(element) {
+
+	var scriptName= &apos;convertAddressToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objAddress= new Object();
+		var meta = {};
+
+		// evaluate List for Entity Identifier
+		var lstExtendedAddress= element.toString().toUpperCase().split(&quot;^&quot;);
+		
+		// Entity Identity Identifier -&gt; @DataModel
+		for(i= 0;i&lt;lstExtendedAddress.length;i++) {
+			var subElement= lstExtendedAddress[i].toString();
+			
+			//  PID-11.1 Street Address (SAD)
+			if(i== 0) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;StreetAddress&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+				}
+			}
+			// PID-11.2 Other Designation (ST)
+			if(i== 1) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;OtherDesignation&quot;;
+					meta[columnName]= subElement.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+				}
+			}
+			// PID-11.3 City (ST)
+			if(i== 2) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;City&quot;;
+					meta[columnName]= subElement.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+				}
+			}
+			// PID-11.4 State or Province (ST)	
+			if(i== 3) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;StateOrProvince&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			}
+			// PID-11.5 Zip or Postal Code (ST)
+			if(i== 4) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;ZipOrPostalCode&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			}
+			// PID-11.6 Country (ID)
+			if(i== 5) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;Country&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			}
+			// PID-11.7 Address type (ID)
+			if(i== 6) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;AddressType&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			}
+			// PID-11.8 Other Geographic Designation (ST)
+			if(i== 7) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;OtherGeographicDesignation&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			} 
+			// PID-11.9 County/Parish Code (IS)
+			if(i== 8) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;CountyParishCode&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			}
+			// PID-11.10 Census Tract (IS)
+			if(i== 9) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;CensusTract&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			}
+			// PID-11.11 Address Representation Code (IS)
+			if(i== 10) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;AddressRepresentationCode&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+					
+				}
+			}
+			// PID-11.12 Address Validity Range (DR)
+			if(i== 11) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;AddressValidityRange&quot;;
+					
+					// call the convertDateTimeRangeToJSON function
+					var columnValue= convertDateTimeRangeToJSON(subElement);
+					meta[columnName]= columnValue;
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+				}
+			}
+		} // end if 
+
+		objAddress= JSON.stringify(meta); // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objAddress: &apos;+objAddress); 
+		}
+		
+		return objAddress;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>5122dea6-6b6a-4720-993b-668f5e936666</id>
+      <name>convertCodedElementToJSON</name>
+      <revision>6</revision>
+      <lastModified>
+        <time>1689376323180</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Coded Element (CE) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. F-11380^CREATININE^I9^2148-5^CREATININE^LN)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objCodedElement - this contains the HL7  Coded Element (CE) element into a single objExtendedTelecommunicationNumber JSON object.
+	(e.g. 
+		{ &quot;Order Control Code Reason&quot; {
+			&quot;Identifier&quot;=&quot;F-11380&quot;,
+			&quot;Text&quot;=&quot;QAM&quot;,
+			&quot;NameOfCodingSystem&quot;=&quot;X3&quot;,
+			&quot;AlternateIdentifier&quot;=&quot;&quot;,
+			&quot;AlternateText&quot;=&quot;&quot;,
+			&quot;NameOfAlternateCodingSystem&quot;=&quot;&quot;
+		})
+	History:
+	2022-08-26 JER - Substitute space character with no character
+*/
+function convertCodedElementToJSON(element) {
+
+	var scriptName= &apos;convertCodedElementToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { 
+		logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); 
+	}
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objCodedElement= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Person Location -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Identifier&quot;;
+					meta[columnName]= child.toString();
+
+					// 2022-08-26 JER - Substitute space character with no character
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString().replace(/\s/,&apos;&apos;)); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Text&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameOfCodingSystem&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AlternateIdentifier&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString().replace(/\s/,&apos;&apos;)); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AlternateText&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameOfAlternateCodingSystem&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objCodedElement= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objCodedElement); 
+		}
+		
+		return objCodedElement;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>5915bb31-3bed-4e68-9443-e5d7951a71c0</id>
+      <name>convertCodedWithExceptionsToJSON</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1661554929100</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Coded With Exceptions (CWE) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. F-11380^CREATININE^I9^2148-5^CREATININE^LN)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objCodedWithExceptions - this contains the HL7  Coded With Exceptions (CWE) element into a single objCodedWithExceptions JSON object.
+	(e.g. 
+		{ &quot;Repeat Pattern Code&quot; {
+			&quot;Identifier&quot;=&quot;F-11380&quot;,
+			&quot;Text&quot;=&quot;QAM&quot;,
+			&quot;NameOfCodingSystem&quot;=&quot;X3&quot;,
+			&quot;AlternateIdentifier&quot;=&quot;&quot;,
+			&quot;AlternateText&quot;=&quot;&quot;,
+			&quot;NameOfAlternateCodingSystem&quot;=&quot;&quot;,
+			&quot;CodingSystemVersionId&quot;=&quot;&quot;,
+			&quot;AlternateCodingSystemVersionId&quot;=&quot;&quot;,
+			&quot;OriginalText&quot;=&quot;&quot;
+		})
+
+		&quot;repeatPattern&quot; : {&#xd;
+      		&quot;RepeatPatternCode&quot; : {&#xd;
+        			&quot;Identifier&quot; : &quot;1D  &quot;&#xd;
+      		},&#xd;
+      		&quot;CalendarAlignment&quot; : &quot;1&quot;&#xd;
+    		},
+	Components: &lt;identifier (ST)&gt; ^ &lt;text (ST)&gt; ^ &lt;name of coding system (IS)&gt; ^ &lt;alternate identifier (ST)&gt; ^ &lt;alternate text (ST)&gt; ^ &lt;name of alternate coding system (IS)&gt; ^ &lt;coding system version ID (ST)&gt; ^ alternate coding system version ID (ST)&gt; ^ &lt;original text (ST)&gt;
+	History:
+	2022-08-26 JER - Modify to remove all space characters from an element value using replace(/\s+/g,&apos;&apos;)
+*/
+function convertCodedWithExceptionsToJSON(element) {
+
+	var scriptName= &apos;convertCodedWithExceptionsToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objCodedWithExceptions= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Person Location -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Identifier&quot;;
+					// 2022-08-26 JER - Modify to remove all space characters from an element value using replace(/\s+/g,&apos;&apos;)
+					meta[columnName]= child.toString().replace(/\s+/g,&apos;&apos;);
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Text&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameOfCodingSystem&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AlternateIdentifier&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AlternateText&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameOfAlternateCodingSystem&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;CodingSystemVersionId&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AlternateCodingSystemVersionId&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;OriginalText&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objCodedWithExceptions= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objCodedWithExceptions); 
+		}
+		
+		return objCodedWithExceptions;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>96326b8a-12da-4785-9685-dc6d3bd2f771</id>
+      <name>convertCompositeQuantityTimingToJSON</name>
+      <revision>3</revision>
+      <lastModified>
+        <time>1675310260882</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Composite Quantity Timing to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 1^QAM^X3)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objCompositeQuantityTiming - this contains the HL7 Extended Composite Number and Name for Persons element into a single objCompositeQuantityTiming JSON object.
+	(e.g. 
+		{ &quot;Quantity/Timing&quot; {
+			&quot;Quantity&quot;=&quot;1&quot;,
+			&quot;Interval&quot;=&quot;QAM&quot;,
+			&quot;Duration&quot;=&quot;X3&quot;
+		})
+	@history
+	2023-02-01 JER - Modified from using JSON.stringify to NOT using the JSON.stringify on the objCompositeQuantityTiming object	
+	2022-12-27 JER - Modified from calling convertCompositeQuantityWithUnitsToJSON(orc[&apos;ORC.7&apos;]) to child
+*/
+function convertCompositeQuantityTimingToJSON(element) {
+
+	var scriptName= &apos;convertCompositeQuantityTimingToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objCompositeQuantityTiming= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Entity Identity Identifier -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Quantity&quot;;
+					// meta[columnName]= child.toString();
+					// 2022-12-27 JER - Modified from calling convertCompositeQuantityWithUnitsToJSON(orc[&apos;ORC.7&apos;]) to child
+					// meta[columnName]= convertCompositeQuantityWithUnitsToJSON(orc[&apos;ORC.7&apos;]);
+					meta[columnName]= convertCompositeQuantityWithUnitsToJSON(child);
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Interval&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Duration&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;StartDateTime&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;EndDateTime&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Priority&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Condition&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Text&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Conjunction&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;OrderingSequence&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 9) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;OccurrenceDuration&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 10) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;TotalOccurrences&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		// 2023-02-01 JER - Modified from using JSON.stringify to NOT using the JSON.stringify on the objCompositeQuantityTiming object
+		// objCompositeQuantityTiming= JSON.stringify(meta); // convert to JSON
+		objCompositeQuantityTiming= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta)); 
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objCompositeQuantityTiming); 
+		}
+		
+		return objCompositeQuantityTiming;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>66341d47-5033-4494-bb36-eecec23a8771</id>
+      <name>convertCompositeQuantityWithUnitsToJSON</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1672172567785</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Extended Composite Number (CQ) To JSON data element values converted into JSON object for reference
+	ScriptName: convertCompositeQuantityWithUnitsToJSON(element, elementName)
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 100^200 mcg)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objCompositeQuantityWithUnits - this contains the HL7 Extended Composite Number and Name for Persons element into a single objCompositeQuantityWithUnits JSON object.
+	(e.g. 
+		{ &quot;Quantity&quot; {
+			&quot;Quantity&quot;=&quot;QS1&quot;,
+			&quot;Units&quot;=&quot;QS1&quot;
+		})
+*/
+function convertCompositeQuantityWithUnitsToJSON(element) {
+
+	var scriptName= &apos;convertCompositeQuantityWithUnitsToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objCompositeQuantityWithUnits= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Entity Identity Identifier -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Quantity&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Units&quot;;
+					// meta[columnName]= child.toString();
+					meta[columnName]= convertCodedElementToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}	
+			i++;
+		} // end if  
+
+		objCompositeQuantityWithUnits= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objCompositeQuantityWithUnits); 
+		}
+		
+		return objCompositeQuantityWithUnits;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>b0908de4-5a69-4219-a3f5-0d86b53af607</id>
+      <name>convertEntityIdentifierToJSON</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1672725559453</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Entity Identifier data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 06401191^RX^06401191140410^QS1RX)
+	@return {object} objEntityIdentifier JSON - this contains the HL7 Entity Identity element into a single objEntityIdentifier JSON object.
+	(e.g. 
+	{ PlacerOrderNumber {
+		&quot;EntityIdentifier&quot;=&quot;06401191&quot;,
+		&quot;NamespaceId&quot;=&quot;RX&quot;,
+		&quot;UniversalId&quot;=&quot;06401191140410&quot;,
+		&quot;UniversalIdType&quot;=&quot;QS1RX&quot;
+	})
+*/
+function convertEntityIdentifierToJSON(element) {
+
+	var scriptName= &apos;convertEntityIdentifierToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objEntityIdentifier= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Entity Identity Identifier -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;EntityIdentifier&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NamespaceId&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}	
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;UniversalId&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;UniversalIdType&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+					
+				}
+			}
+			i++;
+		} // end if  
+
+		objEntityIdentifier= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objEntityIdentifier); 
+		}
+		
+		return objEntityIdentifier;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>954ffe4f-50d7-43ab-9f48-ecd85d9a4317</id>
+      <name>convertExtendedAddressToJSON</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911274142</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Extended Address (XAD) data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 12345 WEST MAIN STREET^^CARMEL^IN^46032)
+	@return {object} objExtendedAddress- this contains the HL7 Extended Address (XAD) element into a single objExtendedAddress JSON object.
+	(e.g. PatientAddress {
+		&quot;StreetAddress&quot;=&quot;12345 WEST MAIN STREET&quot;,
+		&quot;OtherDesignation&quot;=&quot;RX&quot;,
+		&quot;City&quot;=&quot;CARMEL&quot;,
+		&quot;StateOrProvince&quot;=&quot;IN&quot;,
+		&quot;ZipOrPostalCode&quot;=&quot;46032&quot;
+	})
+**/
+function convertExtendedAddressToJSON(element) {
+
+	var scriptName= &apos;convertExtendedAddressToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objExtendedAddress= new Object();
+		var meta = {};
+		var i= 0;
+	
+		// Entity Identity Identifier -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;StreetAddress&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;OtherDesignation&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}	
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;City&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;StateOrProvince&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+					
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;ZipOrPostalCode&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+					
+				}
+			}
+			i++;
+		} // end if 
+
+		objExtendedAddress= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objExtendedAddress); 
+		}
+
+		channelMap.put(&apos;StreetAddress&apos;,objExtendedAddress)
+		return objExtendedAddress;	
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>7c6e78fd-4713-45f2-bfe6-97906527cba7</id>
+      <name>convertExtendedCompositeIDNumberAndNameToJSON</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1672175146029</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**	
+	Desc: This function retrieves HL7v2 HAPI formatted convert Extended Composite ID Number And Name (XCN) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. QS1^QS1^QS1^^^^^^QS1)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objExtendedCompositeIDNumberAndName - this contains the HL7 Extended Composite ID Number and Name for Persons element into a single objExtendedCompositeIDNumberAndName JSON object.
+	(e.g. 
+		{ &quot;Entered By&quot; {
+			&quot;IdNumber&quot;=&quot;QS1&quot;,
+			&quot;FamilyName&quot;=&quot;QS1&quot;,
+			&quot;GivenName&quot;=&quot;QS1&quot;
+			&quot;SecondGivenName&quot;=&quot;&quot;,
+			&quot;Suffix&quot;=&quot;&quot;,
+			&quot;Prefix&quot;=&quot;&quot;,
+			&quot;Degree&quot;=&quot;&quot;,
+			&quot;SourceTable&quot;=&quot;&quot;,
+			&quot;AssigningAuthority&quot;=&quot;QS1&quot;,
+			&quot;NameTypeCode&quot;=&quot;&quot;,
+			&quot;IdentifierCheckDigit&quot;=&quot;&quot;,
+			&quot;CheckDigitScheme&quot;=&quot;&quot;,
+			&quot;IdentifierTypeCode&quot;=&quot;&quot;,
+			&quot;AssigningFacility&quot;=&quot;&quot;,
+			&quot;NameRepresentationCode&quot;=&quot;&quot;,
+			&quot;NameContext&quot;=&quot;&quot;,
+			&quot;NameValidityRange&quot;=&quot;&quot;,
+			&quot;EffectiveDate&quot;=&quot;&quot;,
+			&quot;ExpirationDate&quot;=&quot;&quot;,
+			&quot;ProfessionalSuffix&quot;=&quot;&quot;,
+			&quot;AssigningJurisdiction&quot;=&quot;&quot;,
+			&quot;AssigningAgencyOrDepartment&quot;=&quot;&quot;
+		})
+**/
+function convertExtendedCompositeIDNumberAndNameToJSON(element) {
+
+	var scriptName= &apos;convertExtendedCompositeIDNumberAndNameToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objExtendedCompositeIDNumberAndName= new Object();
+		var meta = {};
+		var i= 0;
+	
+		// Entity Identity Identifier -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;IdNumber&quot;;
+					meta[columnName]= child.toString();
+					// meta[columnName]= convertCompositeQuantityWithUnitsToJSON(child);
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;FamilyName&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;GivenName&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;SecondGivenName&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Suffix&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Prefix&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Degree&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;SourceTable&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AssigningAuthority&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 9) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameTypeCode&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 10) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;IdentifierCheckDigit&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 11) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;CheckDigitScheme&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			
+			if(i== 12) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;IdentifierTypeCode&quot;;
+					meta[columnName]= child.toString();
+					// meta[columnName]= convertCompositeQuantityWithUnitsToJSON(orc[&apos;ORC.7&apos;]);
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 13) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AssigningFacility&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 14) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameRepresentationCode&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 15) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameContext&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 16) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameValidityRange&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 17) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameContext&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 18) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameValidityRange&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 19) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NameAssemblyOrder&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 20) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;EffectiveDate&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 21) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;ExpirationDate&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 22) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;ProfessionalSuffix&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 23) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AssigningJurisdiction&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 24) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AssigningAgencyOrDepartment&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objExtendedCompositeIDNumberAndName= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(objExtendedCompositeIDNumberAndName));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objExtendedCompositeIDNumberAndName); 
+		}
+		
+		return objExtendedCompositeIDNumberAndName;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>89eb9367-ff7d-4f5f-afe1-acc0f225ae09</id>
+      <name>convertExtendedTelecommunicationNumberToJSON</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911273976</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Extended Telecommunication Number (XTN) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. ^^WPN^PH^^^734^6777777^1)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objExtendedTelecommunicationNumber - this contains the HL7 Extended Telecommunication Number (XTN) element into a single objExtendedTelecommunicationNumber JSON object.
+	(e.g. 
+		{ &quot;Call Back Phone Number&quot; {
+			&quot;TelephoneNumber&quot;=&quot;1&quot;,
+			&quot;TelecommunicationUseCode&quot;=&quot;QAM&quot;,
+			&quot;TelecommunicationEquipmentType&quot;=&quot;X3&quot;,
+			&quot;EmailAddress&quot;=&quot;&quot;,
+			&quot;CountyCode&quot;=&quot;&quot;,
+			&quot;AreaCityCode&quot;=&quot;&quot;,
+			&quot;LocalNumber&quot;=&quot;&quot;,
+			&quot;Extension&quot;=&quot;&quot;,
+			&quot;AnyText&quot;=&quot;&quot;,
+			&quot;ExtensionPrefix&quot;=&quot;&quot;,
+			&quot;SpeedDialCode&quot;=&quot;&quot;,
+			&quot;UnformattedTelephoneNumber&quot;=&quot;&quot;
+		})
+*/
+function convertExtendedTelecommunicationNumberToJSON(element) {
+
+	var scriptName= &apos;convertExtendedTelecommunicationNumberToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objExtendedTelecommunicationNumber= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Person Location -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;TelephoneNumber&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;TelecommunicationUseCode&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;TelecommunicationEquipmentType&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;EmailAddress&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;CountryCode&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AreaCityCode&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;LocalNumber&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Extension&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AnyText&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 9) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;ExtensionPrefix&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 10) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;SpeedDialCode&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 11) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;UnformattedTelephoneNumber&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objExtendedTelecommunicationNumber= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objExtendedTelecommunicationNumber); 
+		}
+		
+		return objExtendedTelecommunicationNumber;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>84877442-9c27-4550-a334-178c7ae94d70</id>
+      <name>convertHierarchicDesignatorToJSON</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911274205</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Hierarchic Designator (HD) To JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 100^200 mcg)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objHierarchicDesignator - this contains the HL7 Hierarchic Designator (HD) element into a single objHierarchicDesignator JSON object.
+	(e.g. 
+		{ &quot;Facility&quot; {
+			&quot;NamespaceId&quot;=&quot;QS1&quot;,
+			&quot;UniversalId&quot;=&quot;QS1&quot;,
+			&quot;UniversalIdType&quot;=&quot;&quot;
+		})
+*/
+function convertHierarchicDesignatorToJSON(element) {
+
+	var scriptName= &apos;convertHierarchicDesignatorToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objHierarchicDesignator= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Entity Identity Identifier -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;NamespaceId&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;UniversalId&quot;;
+					meta[columnName]= child.toString();
+					//meta[columnName]= convertCodedElementToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}	
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;UniversalIdType&quot;;
+					meta[columnName]= child.toString();
+					//meta[columnName]= convertCodedElementToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objHierarchicDesignator= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objHierarchicDesignator); 
+		}
+		
+		return objHierarchicDesignator;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>653ffee7-2a91-44bc-9500-4d082e926903</id>
+      <name>convertLocationAddressVariationToJSON</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1691001755256</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	
+	Desc: This function retrieves HL7v2 HAPI formatted Location with Address Variation (LA1) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 1^QAM^X3)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objLocationAddressVariation - this contains the HL7 Location with Address Variation (LA1) element into a single objLocationAddressVariation JSON object.
+	(e.g. 
+		{ &quot;objDeliverToLocation&quot; {
+			&quot;PointOfCare&quot;=&quot;1&quot;,
+			&quot;Room&quot;=&quot;QAM&quot;,
+			&quot;Bed&quot;=&quot;X3&quot;,
+			&quot;Facility&quot;=&quot;&quot;,
+			&quot;LocationStatus&quot;=&quot;&quot;,
+			&quot;PatientLocationType&quot;=&quot;&quot;,
+			&quot;Building&quot;=&quot;&quot;,
+			&quot;Floor&quot;=&quot;&quot;,
+			&quot;Address&quot;=&quot;&quot;
+		})
+*/
+function convertLocationAddressVariationToJSON(element) {
+
+	var scriptName= &apos;convertLocationAddressVariationToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objLocationAddressVariation= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Person Location -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PointOfCare&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Room&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Bed&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Facility&quot;;
+					//meta[columnName]= child.toString();
+					meta[columnName]= convertHierarchicDesignatorToJSON(child);
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;LocationStatus&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PatientLocationType&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Building&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Floor&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Address&quot;;
+					// meta[columnName]= child.toString();
+					meta[columnName]= convertAddressToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objLocationAddressVariation= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objLocationAddressVariation); 
+		}
+		
+		return objLocationAddressVariation;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>d716b4ff-f64a-465f-9a83-1cf246612af6</id>
+      <name>convertPersonLocationToJSON</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1672677351163</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Person Location (PL) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 1^QAM^X3)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objPersonLocation - this contains the HL7 Person Location element into a single objPersonLocation JSON object.
+	https://hapifhir.github.io/hapi-hl7v2/v25/apidocs/ca/uhn/hl7v2/model/v25/datatype/PL.html&#xd;	https://profiles.ihe.net/ITI/TF/Volume2/ch-N.html#N.4
+	(e.g. 
+		{ &quot;Quantity/Timing&quot; {
+			&quot;Quantity&quot;=&quot;1&quot;,
+			&quot;Interval&quot;=&quot;QAM&quot;,
+			&quot;Duration&quot;=&quot;X3&quot;
+		})
+*/
+function convertPersonLocationToJSON(element) {
+
+	var scriptName= &apos;convertPersonLocationToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objPersonLocation= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Person Location -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PointOfCare&quot;;
+					meta[columnName]= child.toString();
+					// meta[columnName]= convertCompositeQuantityWithUnitsToJSON(orc[&apos;ORC.7&apos;]);
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Room&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Bed&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Facility&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;LocationStatus&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PersonLocationType&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Building&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Floor&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;LocationDescription&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 9) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;ComprehensiveLocationIdentifier&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 10) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;AssigningAuthorityForLocation&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objPersonLocation= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objPersonLocation); 
+		}
+		
+		return objPersonLocation;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>ef788d5e-5a92-470a-b2a0-06bd415276b4</id>
+      <name>convertQuantityTimingToJSON</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911274059</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Timing Quantity (TQ) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. F-11380^CREATININE^I9^2148-5^CREATININE^LN)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objTimingQuantity - this contains the HL7 Timing Quantity (TQ) element into a single objTimingQuantity JSON object.
+	(e.g. 
+		{ &quot;QuantityTiming&quot; {
+			&quot;Quantity&quot;=&quot;F-11380&quot;,
+			&quot;Interval&quot;=&quot;QAM&quot;,
+			&quot;Duration&quot;=&quot;X3&quot;,
+			&quot;StartDateTime&quot;=&quot;&quot;,
+			&quot;EndDateTime&quot;=&quot;&quot;,
+			&quot;Priority&quot;=&quot;&quot;,
+			&quot;Condition&quot;=&quot;&quot;,
+			&quot;Text&quot;=&quot;&quot;,
+			&quot;Conjunction&quot;=&quot;&quot;,
+			&quot;OrderSequencing&quot;=&quot;&quot;,
+			&quot;OccurrenceDuration&quot;=&quot;&quot;,
+			&quot;TotalOccurrences&quot;=&quot;&quot;
+		})
+	Components: &lt;Quantity (CQ)&gt; ^ &lt;Interval (RI)&gt; ^ &lt;Duration (ST)&gt; ^ &lt;Start Date/Time (TS)&gt; ^ &lt;End Date/Time (TS)&gt; ^ &lt;Priority (ST)&gt; ^ &lt;Condition (ST)&gt; ^ &lt;Text (TX)&gt; ^ &lt;Conjunction (ID)&gt; ^ &lt;Order Sequencing (OSD)&gt; ^ &lt;Occurrence Duration (CE)&gt; ^ &lt;Total Occurrences (NM)&gt;
+**/
+function convertQuantityTimingToJSON(element) {
+
+	var scriptName= &apos;convertQuantityTimingToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objTimingQuantity= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Person Location -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Quantity&quot;;
+					// meta[columnName]= child.toString();
+					meta[columnName]= convertCompositeQuantityWithUnitsToJSON(child);
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Interval&quot;;
+					// meta[columnName]= child.toString();
+					meta[columnName]= convertRepeatIntervalToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Duration&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;StartDateTime&quot;;
+					// meta[columnName]= child.toString();
+					meta[columnName]= convertTimestampToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;EndDateTime&quot;;
+					//meta[columnName]= child.toString();
+					meta[columnName]= convertTimestampToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Priority&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Condition&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Text&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Conjunction&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 9) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;OrderSequencing&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 10) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;OccurrenceDuration&quot;;
+					//meta[columnName]= child.toString();
+					meta[columnName]= convertCodedElementToJSON(child);
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 11) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;TotalOccurrences&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objTimingQuantity= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objTimingQuantity); 
+		}
+		
+		return objTimingQuantity;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>ba57aac0-1dd8-47e4-aab6-9ebcca1267c0</id>
+      <name>convertRepeatIntervalToJSON</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1661554644541</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Repeat Interval (RI) To JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 100^200 mcg)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objRepeatInterval - this contains the HL7 Repeat Interval (RI) element into a single objRepeatInterval JSON object.
+	(e.g. 
+		{ &quot;Interval&quot; {
+			&quot;Repeat Pattern&quot;=&quot;QS1&quot;,
+			&quot;Explicit Time Interval&quot;=&quot;QS1&quot;
+		})
+	History:
+	2022-08-26 JER - trim any space characters from the element value - child.toString().replace(/\s+/g,&apos;&apos;);
+*/
+function convertRepeatIntervalToJSON(element) {
+
+	var scriptName= &apos;convertRepeatIntervalToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objRepeatInterval= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Entity Identity Identifier -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Repeat Pattern&quot;;
+					// 2022-08-26 JER - trim any space characters from the element value - child.toString().replace(/\s+/g,&apos;&apos;);
+					meta[columnName]= child.toString().replace(/\s+/g,&apos;&apos;);
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Explicit Time Interval&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}	
+			i++;
+		} // end if  
+
+		objRepeatInterval= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objRepeatInterval); 
+		}
+		
+		return objRepeatInterval;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>db8d6d68-6e76-44c2-ad1b-132b2fe9ef08</id>
+      <name>convertRepeatPatternToJSON</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911273520</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Repeat Pattern (RPT) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. QAM&amp;Every morning at the institution specified time&amp;HL7xxx^HD^00^11^1^d^Y)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objRepeatPattern - this contains the HL7 Repeat Pattern (RPT) element into a single objRepeatPattern JSON object.
+	(e.g. 
+		{ &quot;Repeat Pattern&quot; {
+			&quot;RepeatPatternCode&quot;=&quot;&quot;,
+			&quot;CalendarAlignment&quot;=&quot;&quot;,
+			&quot;PhaseRangeBeginValue&quot;=&quot;X3&quot;,
+			&quot;PhaseRangeEndValue&quot;=&quot;&quot;,
+			&quot;PeriodQuantity&quot;=&quot;&quot;,
+			&quot;PeriodUnits&quot;=&quot;&quot;,
+			&quot;InstitutionSpecifiedTime&quot;=&quot;&quot;,
+			&quot;Event&quot;=&quot;&quot;,
+			&quot;EventOffsetQuantity&quot;=&quot;&quot;,
+			&quot;EventOffsetUnits&quot;=&quot;&quot;,
+			&quot;GeneralTimingSpecification&quot;=&quot;&quot;
+		})
+	Components: &lt;Repeat Pattern Code (CWE)&gt; &amp; &lt;Calendar Alignment (ID)&gt; &amp; &lt;Phase Range Begin Value (NM)&gt; &amp; &lt;Phase Range End Value (NM)&gt; &amp; &lt;Period Quantity (NM)&gt; &amp; &lt;Period Units (CWE)&gt; &amp; &lt;Institution Specified Time (ID)&gt; &amp; &lt;Event (ID)&gt; &amp; &lt;Event Offset Quantity (NM)&gt; &amp; &lt;Event Offset Units (CWE)&gt; &amp; &lt;General Timing Specification (GTS)&gt;
+*/
+function convertRepeatPatternToJSON(element) {
+
+	var scriptName= &apos;convertRepeatPatternToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objRepeatPattern= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Person Location -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;RepeatPatternCode&quot;;
+					// meta[columnName]= child.toString();
+					meta[columnName]= convertCodedWithExceptionsToJSON(child);
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;CalendarAlignment&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 2) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PhaseRangeBeginValue&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PhaseRangeEndValue&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PeriodQuantity&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;PeriodUnits&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;InstitutionSpecifiedTime&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 7) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Event&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 8) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;EventOffsetQuantity&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 9) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;EventOffsetUnits&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 10) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;GeneralTimingSpecification&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objRepeatPattern= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objRepeatPattern); 
+		}
+		
+		return objRepeatPattern;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>3ad0a3bf-2d63-4d12-afc1-47e53ed22771</id>
+      <name>convertSpecimenSourceToJSON</name>
+      <revision>3</revision>
+      <lastModified>
+        <time>1672448058302</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Specimen Source (SPS) data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) for Specimen Source SPS element
+	@return {object} objSpecimenSource JSON - this contains the HL7 Specimen Source SPS element into a single objSpecimenSource JSON object.
+	@created:  2022-12-30 JER
+*/
+function convertSpecimenSourceToJSON(element) {
+
+	var scriptName= &apos;convertSpecimenSourceToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objSpecimenSource= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Specimen Source  -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				// Specimen Source Code or Name (CWE)
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;SpecimenSourceCode&quot;;
+					// call convertCodedWithExceptionsToJSON
+					meta[columnName]= convertCodedWithExceptionsToJSON(child.toString());
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+convertCodedWithExceptionsToJSON(child.toString())); }
+				}
+			}
+			if(i== 1) {
+				// Additives (CWE)
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Additives&quot;;
+					// call convertCodedWithExceptionsToJSON
+					meta[columnName]= convertCodedWithExceptionsToJSON(child.toString());
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+convertCodedWithExceptionsToJSON(child.toString())); }
+				}
+			}	
+			if(i== 2) {
+				// Specimen Collection Method (TX)
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;SpecimenCollectionMethod&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 3) {
+				if(child.toString().length&gt; 0) {
+					// Body Site (CWE)
+					var columnName= &quot;BodySite&quot;;
+					// call convertCodedWithExceptionsToJSON
+					meta[columnName]= convertCodedWithExceptionsToJSON(child.toString());
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+convertCodedWithExceptionsToJSON(child.toString())); }
+					
+				}
+			}
+			if(i== 4) {
+				if(child.toString().length&gt; 0) {
+					// Site Modifier (CWE)
+					var columnName= &quot;SiteModifier&quot;;
+					// call convertCodedWithExceptionsToJSON
+					meta[columnName]= convertCodedWithExceptionsToJSON(child.toString());
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+convertCodedWithExceptionsToJSON(child.toString())); }
+					
+				}
+			}
+			if(i== 5) {
+				if(child.toString().length&gt; 0) {
+					// Collection Method Modifier Code (CWE)
+					var columnName= &quot;CollectionMethodModifierCode&quot;;
+					// call convertCodedWithExceptionsToJSON
+					meta[columnName]= convertCodedWithExceptionsToJSON(child.toString());
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+convertCodedWithExceptionsToJSON(child.toString())); }
+					
+				}
+			}
+			if(i== 6) {
+				if(child.toString().length&gt; 0) {
+					// Specimen Role (CWE)
+					var columnName= &quot;SpecimenRole&quot;;
+					// call convertCodedWithExceptionsToJSON
+					meta[columnName]= convertCodedWithExceptionsToJSON(child.toString());
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+convertCodedWithExceptionsToJSON(child.toString())); }
+					
+				}
+			}
+			i++;
+		} // end if  
+
+		objSpecimenSource= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objSpecimenSource); 
+		}
+		
+		return objSpecimenSource;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>5b278cf9-4a13-499d-9db7-485f8c0001a1</id>
+      <name>convertStreetAddressToJSON</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1689981400347</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Street Address (SAD) data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 element (string) (e.g. 348 W Duarte road&amp;Duarte&amp;348)
+	@return {object} objAddress- this contains the HL7 Street Address (SAD) element into a single objAddress JSON object.
+	(e.g. 
+	{ Address {
+		&quot;Street or Mailing Address&quot;=&quot;348 W Duarte road&quot;,
+		&quot;Street Name&quot;=&quot;Duarte&quot;,
+		&quot;Dwelling Number&quot;=&quot;348&quot;
+	})
+**/
+function convertStreetAddressToJSON(element) {
+
+	var scriptName= &apos;convertStreetAddressToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objStreetAddress= new Object();
+		var meta = {};
+
+		// evaluate List
+		var lstStreetAddress= element.toString().toUpperCase().split(&quot;^&quot;);
+		
+		// Entity Identity Identifier -&gt; @DataModel
+		for(i= 0;i&lt;lstStreetAddress.length;i++) {
+			var subElement= lstStreetAddress[i].toString();
+			
+			//  PID-11.1.1 Street Or Mailing Address (ST)
+			if(i== 0) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;StreetOrMailingAddress&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+				}
+			}
+
+			//  PID-11.1.2 Street Name (ST)
+			if(i== 0) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;StreetName&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+				}
+			}
+			
+			//  PID-11.1.3 Dwelling Number (ST)
+			if(i== 0) {
+				if(subElement.toString().length&gt; 0) {
+					var columnName= &quot;DwellingNumber&quot;;
+					meta[columnName]= subElement.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+columnValue); }
+				}
+			}
+
+		} // end for 
+		
+		objStreetAddress= JSON.stringify(meta); // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objStreetAddress: &apos;+objStreetAddress); 
+		} // end if 
+		
+		return objStreetAddress;
+	} // end if 
+	
+} // end function </code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>3ca8d7ec-6b08-4a29-b2ef-c187a7b3e495</id>
+      <name>convertTimestampToJSON</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911273674</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc: This function retrieves HL7v2 HAPI formatted Timestamp (TS) to JSON data element values converted into JSON object for reference
+
+	@param {String} element- this contains the raw HL7 Timestamp (TS) element (string) (e.g. 20140410094429^20140410214429.3+000)
+	elementName - this contains the label or element name to be added to the JSON object
+	@return {object} objTimestamp - this contains the HL7 Timestamp (TS) with percision into a single objTimestamp JSON object.
+	(e.g. 
+		{ &quot;Date/Time of Transaction&quot; {
+			&quot;Time&quot;=&quot;20140410094429&quot;,
+			&quot;Degree of Precision&quot;=&quot;20140410214429.3+000&quot;
+		})
+*/
+function convertTimestampToJSON(element) {
+
+	var scriptName= &apos;convertTimestampToJSON&apos;;
+	var debug= 0;
+	if (debug&gt;0) { logger.error(scriptName+&apos;::DEBUG element: &apos;+element.toString()); }
+	
+	// define variables
+	if (typeof(element.toString()) !== undefined) {
+
+		var objTimestamp= new Object();
+		var meta = {};
+
+		var i= 0;
+	
+		// Timestamp with Degree of Precision -&gt; @DataModel
+		for each (child in element.children()) {
+			
+			if(i== 0) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Time&quot;;
+					meta[columnName]= child.toString();
+					
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			if(i== 1) {
+				if(child.toString().length&gt; 0) {
+					var columnName= &quot;Degree of Precision&quot;;
+					meta[columnName]= child.toString();
+				
+					if(debug&gt;0) { logger.info(scriptName+&quot;::DEBUG meta[&quot;+columnName+&quot;] value: &quot;+child.toString()); }
+				}
+			}
+			i++;
+		} // end if  
+
+		objTimestamp= meta; // convert to JSON
+		if(debug&gt;0) { 
+			logger.error(scriptName+&quot;::DEBUG meta: &quot;+JSON.stringify(meta));
+			logger.error(scriptName+&apos;::DEBUG objIdentifier: &apos;+objTimestamp);
+		}
+		
+		return objTimestamp;
+	}
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>6a03a975-7cff-46a4-b41b-2dd6107d8f20</id>
+      <name>hl7_get_patient_identifier</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1669746065076</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 message PID segment the PID.3 patient identifier element and return a Javascript Array object contain PID.3.1, PID.3.4 and PID.3.5
+	
+	Filename: hl7_get_patient_identifier
+	@param {String} pid object - This will contains the XML representation of the HL7v2 PID segment desired PID identifier element for the patient identifier (e.g. PID-2, PID-3, PID-4)
+	@return {String} return - Return an array of patient identifier object containing the patient identifier (PID-3.1), patient identifier domain (PID-3.4), and patient identifier assigning authority (PID-3.5)
+	E.G.   
+		&lt;PID.3&gt;&lt;PID.3.1&gt;1112223233&lt;/PID.3.1&gt;&lt;PID.3.2&gt;&lt;/PID.3.2&gt;&lt;PID.3.3&gt;&lt;/PID.3.3&gt;&lt;PID.3.4&gt;BJC&lt;/PID.3.4&gt;&lt;PID.3.5&gt;2.16.840.35553.312.331.1112223233&lt;/PID.3.5&gt;&lt;/PID.3&gt;
+		&lt;PID.3&gt;&lt;PID.3.1&gt;99823204&lt;/PID.3.1&gt;&lt;PID.3.2&gt;&lt;/PID.3.2&gt;&lt;PID.3.3&gt;&lt;/PID.3.3&gt;&lt;PID.3.4&gt;EPIC&lt;/PID.3.4&gt;&lt;PID.3.5&gt;2.16.840.13663.23.17&lt;/PID.3.5&gt;&lt;/PID.3&gt;
+	History:
+	
+*/
+function hl7_get_patient_identifier(pid) {
+
+	var scriptName= &apos;hl7_get_patient_identifier&apos;
+	var debug= 0;
+	var arrPatientIdentifiers= new Array();
+	
+	if(debug&gt;0) { logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pid typeof: &apos;+typeof(pid)+&apos; length: &apos;+pid.length()+&apos; pid identifier: &apos;+pid); } 
+	
+	for(var i= 0;i&lt;pid.length();i++) {
+		
+		var objPatientIdentifier= new Object();
+		objPatientIdentifier.patientIdentifier= pid[i][&apos;PID.3.1&apos;].toString();
+		objPatientIdentifier.patientIdentifierDomain= pid[i][&apos;PID.3.4&apos;].toString();
+		objPatientIdentifier.identifierTypeCode= pid[i][&apos;PID.3.5&apos;].toString();
+	
+		if(debug&gt;0) { 
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pid[&apos;+i+&apos;] typeof: &apos;+typeof(pid[i])+&apos; length: &apos;+pid[i].length+&apos; pid identifier: &apos;+pid[i]); 
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pid[&apos;+i+&apos;] patientIdentifier: &apos;+objPatientIdentifier.patientIdentifier); 
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pid[&apos;+i+&apos;] patientIdentifierDomain: &apos;+objPatientIdentifier.patientIdentifierDomain); 
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pid[&apos;+i+&apos;] identifierTypeCode: &apos;+objPatientIdentifier.identifierTypeCode); 			
+		} 
+		
+		arrPatientIdentifiers.push(objPatientIdentifier);
+	} // end for
+	if(debug&gt;0) { logger.error(&apos;DEBUG::&apos;+scriptName+&apos; return arrPatientIdentifiers: &apos;+JSON.stringify(arrPatientIdentifiers)); }
+	
+	return arrPatientIdentifiers;
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>4841091d-7809-4f22-a722-2b90d6023fa7</id>
+      <name>json_al1_allergy</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1669785473229</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 message AL1 segment and return a Javascript object
+	
+	Filename: json_al1_allergy.js
+	@param {String} orc - This will contains the XML representation of the HL7v2 AL1 segment
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 AL1 segment
+	History:
+	
+*/
+function json_al1_allergy(al1) {
+
+	var scriptName= &apos;json_al1_allergy&apos;;
+	var debug= 0;
+	/*
+	logger.error(scriptName+&apos;:DEBUG:: al1= &apos;+al1);;
+	*/
+	var objAllergy= {};
+	
+	// AL1.1 - set Id
+	if(al1[&apos;AL1.1&apos;].toString().length&gt;0) objAllergy.setId= al1[&apos;AL1.1&apos;][&apos;AL1.1.1&apos;].toString();
+
+	// AL1.2 - Type Code
+	// if(al1[&apos;AL1.2&apos;].toString().length&gt;0) objAllergy.valueType= convertCodedElementToJSON(al1[&apos;AL1.2&apos;]);
+	if(al1[&apos;AL1.2&apos;].toString().length&gt;0) objAllergy.typeCode= convertCodedElementToJSON(al1[&apos;AL1.2&apos;]);
+	
+	// AL1.3 - Allergen Code (identifier^text^name of codeSystem^alternate Id^alternate text^name of alternate codeSystem)
+	if(al1[&apos;AL1.3&apos;].toString().length&gt;0) objAllergy.allergyCode= convertCodedElementToJSON(al1[&apos;AL1.3&apos;]);
+	
+	// AL1.4 - Severity Code
+	if(al1[&apos;AL1.4&apos;].toString().length&gt;0) objAllergy.severityCode= convertCodedElementToJSON(al1[&apos;AL1.4&apos;]);
+	
+	// AL1.5 - Reaction Code
+	var arrReactionCode= new Array();
+	for each(reaction in al1[&apos;AL1.5&apos;]) {
+		arrReactionCode.push(reaction[&apos;AL1.5.1&apos;].toString());
+	} // end for each
+	if(al1[&apos;AL1.5&apos;].toString().length&gt;0) objAllergy.reactionCode= arrReactionCode;
+	
+	// AL1.6 - Identification Date
+	if(al1[&apos;AL1.6&apos;].toString().length&gt;0) objAllergy.identificationDate= al1[&apos;AL1.6&apos;][&apos;AL1.6.1&apos;].toString();
+	
+	
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: objAllergy= &apos;+objAllergy);
+		logger.error(scriptName+&apos;:DEBUG:: commonOrder= &apos;+JSON.stringify(objAllergy));
+	}
+	
+	channelMap.put(&apos;Allergy&apos;,JSON.stringify(objAllergy));
+	return objAllergy;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>7c6d63d8-bf55-4204-b727-6aaa157c962d</id>
+      <name>json_mrg_patient</name>
+      <revision>3</revision>
+      <lastModified>
+        <time>1657634910685</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 MRG segment and return a Javascript object
+
+	@param {String} mrg - This will contains the XML representation of the HL7v2 MRG segment
+	
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 MRG segment
+	History:
+	2022-02-28 jer - Modified to include the MRG-7.1 lastName and MRG-7.2 firstName properties to merge object
+	
+*/
+function json_mrg_patient(mrg) {
+
+	var scriptName= &apos;json_mrg_patient&apos;;
+	/*
+	logger.error(scriptName+&apos;:DEBUG:: mrg= &apos;+mrg);
+	*/
+	var mergePatient= {};
+	
+	for each(mrg1 in mrg[&apos;MRG.1&apos;]) {
+			
+		var pidNum = mrg1[&apos;MRG.1.1&apos;].toString();
+		var entity = mrg1[&apos;MRG.1.4&apos;].toString();
+		// 2022-02-22 jer - verify if PID.3.5 exists if not is undefined
+		if(mrg1[&apos;MRG.1.5&apos;].toString().length&gt;0) {
+			var IDCode = mrg1[&apos;MRG.1.5&apos;].toString();
+		}
+			
+		//logger.error(scriptName+&apos;:DEBUG:: typeof(IDCode)= &apos;+typeof(IDCode));
+
+		// 2022-02-22 jer - verify if undefined or defined with value of MRN
+		if((typeof(IDCode)== &apos;undefined&apos;) || (IDCode.indexOf(&apos;MRN&apos;)&gt;-1)) {
+			if(entity != null) {
+				mergePatient.mrn= pidNum;
+				mergePatient.mrnDomain= entity;
+			}
+		}
+		else if (IDCode.indexOf(&quot;MR&quot;)&gt;-1) {
+			if(entity != null) {
+				mergePatient.mpi= pidNum;
+				mergePatient.mpiDomain= entity;
+			}
+		}
+	}
+
+	// 2022-02-28 jer - Modified to include the MRG-7.1 lastName and MRG-7.2 firstName properties to merge object
+	mergePatient.firstName= 	mrg[&apos;MRG.7&apos;][&apos;MRG.7.2&apos;].toString();
+	mergePatient.middleName= mrg[&apos;MRG.7&apos;][&apos;MRG.7.3&apos;].toString();
+	mergePatient.lastName= 	mrg[&apos;MRG.7&apos;][&apos;MRG.7.1&apos;].toString();
+		
+	// logger.error(scriptName+&apos;:DEBUG:: mergePatient= &apos;+JSON.stringify(mergePatient));
+	return mergePatient;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>be99b75f-95fa-4cb3-9ed8-982d2a573878</id>
+      <name>json_msh_header</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911274231</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 MSH header segment and return a Javascript object
+
+	@param {String} msh - This will contains the XML representation of the HL7v2 MSH header segment
+	@param {String} patient - This will contains the XML representation of the Javascript patient object
+	
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 MSH segment
+	History:
+**/
+function json_msh_header(msh) {
+
+	var scriptName= &apos;json_msh_header&apos;;
+	var debug= 0;
+	if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: msh= &apos;+msh); }
+
+	var header= {};
+
+	header.sendingApplication= 		msh[&apos;MSH.3&apos;][&apos;MSH.3.1&apos;].toString();
+	header.sendingFacility= 			msh[&apos;MSH.4&apos;][&apos;MSH.4.1&apos;].toString();
+	header.receivingApplication= 		msh[&apos;MSH.5&apos;][&apos;MSH.5.1&apos;].toString();
+	header.receivingFacility= 		msh[&apos;MSH.6&apos;][&apos;MSH.6.1&apos;].toString();
+	header.messageDateTime=			msh[&apos;MSH.7&apos;][&apos;MSH.7.1&apos;].toString();
+	header.messageType= 			msh[&apos;MSH.9&apos;][&apos;MSH.9.1&apos;].toString();
+	header.eventType= 				msh[&apos;MSH.9&apos;][&apos;MSH.9.2&apos;].toString();
+	header.messageControlId=			msh[&apos;MSH.10&apos;][&apos;MSH.10.1&apos;].toString();
+	header.processingId=			msh[&apos;MSH.11&apos;][&apos;MSH.11.1&apos;].toString();
+	header.versionId=				msh[&apos;MSH.12&apos;][&apos;MSH.12.1&apos;].toString();
+
+	if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: header= &apos;+JSON.stringify(header)); }
+	return header;
+
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>4acd1786-cc12-4432-9c61-085fcd057109</id>
+      <name>json_obr_observation_request</name>
+      <revision>4</revision>
+      <lastModified>
+        <time>1672850688701</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 message OBR segment and return a Javascript object
+	
+	Filename: json_obr_observation_request.js
+	@param {String} obr - This will contains the XML representation of the HL7v2 OBR segment
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 OBR segment
+	History:
+	2023-01-04 JER - Modified to evaluate the OBR.2.1 field to determine the type of order as order_type
+	
+*/
+function json_obr_observation_request(obr) {
+
+	var scriptName= &apos;json_obr_observation_request&apos;;
+	var debug= 0;
+	/*
+	logger.error(scriptName+&apos;:DEBUG:: obr= &apos;+obr);;
+	*/
+	var objObservationRequest= {};
+	
+	// OBR.1 - set Id (ID)
+	// if(obr[&apos;OBR.1&apos;].toString().length&gt;0) objObservationRequest.setId= convertTimingQuantityToJSON(obr[&apos;OBX.1&apos;]);
+	if(obr[&apos;OBR.1&apos;].toString().length&gt;0) objObservationRequest.setId= obr[&apos;OBR.1&apos;][&apos;OBR.1.1&apos;].toString();
+
+	// OBR.2 - Placer Order Number (EI)
+	// if(obr[&apos;OBR.2&apos;].toString().length&gt;0) objObservationRequest.placerOrderNumber= convertCodedElementToJSON(obr[&apos;OBR.2&apos;]);
+	if(obr[&apos;OBR.2&apos;].toString().length&gt;0) objObservationRequest.placerOrderNumber= convertEntityIdentifierToJSON(obr[&apos;OBR.2&apos;]);
+
+	// 2023-01-04 JER - Modified to evaluate the OBR.2.1 field to determine the type of order as order_type
+	if(obr[&apos;OBR.2&apos;][&apos;OBR.2.1&apos;].toString()== &apos;RAD&apos;) {
+		objObservationRequest.orderType= &apos;Radiology&apos;;
+	} else if(obr[&apos;OBR.2&apos;][&apos;OBR.2.1&apos;].toString()== &apos;LAB&apos;) {
+		objObservationRequest.orderType= &apos;Laboratory&apos;	
+	} else if(obr[&apos;OBR.2&apos;][&apos;OBR.2.1&apos;].toString()== &apos;LAB-SPM&apos;) {
+		objObservationRequest.orderType= &apos;Laboratory-Specimen&apos;;
+	} else {
+		objObservationRequest.orderType= &apos;Common Order&apos;;
+	}
+	
+	// OBR.3 - Filler Order Number (EI)
+	// CE - Observation Identifier (identifier^text^name of codeSystem^alternate Id^alternate text^name of alternate codeSystem)
+	if(obr[&apos;OBR.3&apos;].toString().length&gt;0) objObservationRequest.fillerOrderNumber= convertEntityIdentifierToJSON(obr[&apos;OBR.3&apos;]);
+	
+	// OBR.4 - Universal Order Service Identifier (CE)
+	if(obr[&apos;OBR.4&apos;].toString().length&gt;0) objObservationRequest.orderServiceIdentifier= convertCodedElementToJSON(obr[&apos;OBR.4&apos;]);
+	
+	// OBR.5 - Priority (ID)
+	if(obr[&apos;OBR.5&apos;].toString().length&gt;0) objObservationRequest.priorityIdentifier= obr[&apos;OBR.5&apos;][&apos;OBR.5.1&apos;].toString();
+	
+	// OBR.6 - Requested DateTime (TS)
+	if(obr[&apos;OBR.6&apos;].toString().length&gt;0) objObservationRequest.requestedDateTime= convertTimestampToJSON(obr[&apos;OBR.6&apos;]);
+	
+	// OBR.7 - Observed DateTime (TS)
+	if(obr[&apos;OBR.7&apos;].toString().length&gt;0) objObservationRequest.observedDateTime= convertTimestampToJSON(obr[&apos;OBR.7&apos;]);
+	
+	// OBR.8 - Observed End DateTime (TS)
+	if(obr[&apos;OBR.8&apos;].toString().length&gt;0) objObservationRequest.observedEndDateTime= convertTimestampToJSON(obr[&apos;OBR.8&apos;]);
+	
+	// OBR.9 - Collection Volume (CQ)
+	if(obr[&apos;OBR.9&apos;].toString().length&gt;0) objObservationRequest.collectionVolume= convertCompositeQuantityWithUnitsToJSON(obr[&apos;OBR.9&apos;]);
+	
+	// OBR.10 - Collector Identifier (XCN)
+	if(obr[&apos;OBR.10&apos;].toString().length&gt;0) objObservationRequest.collectorIdentifier= convertExtendedCompositeIDNumberAndNameToJSON(obr[&apos;OBR.10&apos;]);
+	
+	// OBR.11 - Specimen Action Code (ID)
+	if(obr[&apos;OBR.11&apos;].toString().length&gt;0) objObservationRequest.specimenActionCode= obr[&apos;OBR.11&apos;][&apos;OBR.11.1&apos;].toString();
+	
+	// OBR.12 - Danger Code (CE)
+	if(obr[&apos;OBR.12&apos;].toString().length&gt;0) objObservationRequest.dangerCode= convertCodedElementToJSON(obr[&apos;OBR.12&apos;]);
+	
+	// OBR.13 - Relevant Clinical Information (ST)
+	if(obr[&apos;OBR.13&apos;].toString().length&gt;0) objObservationRequest.relevantClinicalInformation= obr[&apos;OBR.13&apos;][&apos;OBR.13.1&apos;].toString();
+	
+	// OBR.14 - Specimen Received DateTime (TS)
+	if(obr[&apos;OBR.14&apos;].toString().length&gt;0) objObservationRequest.specimenReceivedDateTime= convertTimestampToJSON(obr[&apos;OBR.14&apos;]);
+	
+	// OBR.15 - Specimen Source (SPS)
+	if(obr[&apos;OBR.15&apos;].toString().length&gt;0) objObservationRequest.producersId= convertSpecimenSourceToJSON(obr[&apos;OBR.15&apos;]);
+	
+	// convertExtendedCompositeIDNumberAndNameToJSON
+	// OBR.16 - Ordering Provider (XCN)
+	if(obr[&apos;OBR.16&apos;].toString().length&gt;0) objObservationRequest.orderingProvider= convertExtendedCompositeIDNumberAndNameToJSON(obr[&apos;OBR.16&apos;]);
+	
+	// convertExtendedTelecommunicationNumberToJSON
+	// OBR.17 - Order Callback Phone Number (XTN)
+	if(obr[&apos;OBR.17&apos;].toString().length&gt;0) objObservationRequest.orderingProvider= convertExtendedTelecommunicationNumberToJSON(obr[&apos;OBR.17&apos;]);
+
+	// OBR.18 - Placer Field 1 (ST)
+	if(obr[&apos;OBR.18&apos;].toString().length&gt;0) objObservationRequest.placerField1= obr[&apos;OBR.18&apos;][&apos;OBR.18.1&apos;].toString();
+	
+	// OBR.19 - Placer Field 2 (ST)
+	if(obr[&apos;OBR.19&apos;].toString().length&gt;0) objObservationRequest.placerField2= obr[&apos;OBR.19&apos;][&apos;OBR.19.1&apos;].toString();
+	
+	// OBR.20 - Filler Field 1 (ST)
+	if(obr[&apos;OBR.20&apos;].toString().length&gt;0) objObservationRequest.fillerField1= obr[&apos;OBR.20&apos;][&apos;OBR.20.1&apos;].toString();
+	
+	// OBR.21 - Filler Field 2 (ST)
+	if(obr[&apos;OBR.21&apos;].toString().length&gt;0) objObservationRequest.fillerField2= obr[&apos;OBR.21&apos;][&apos;OBR.21.1&apos;].toString();
+	
+	// OBR.22 - Results Report Status Change DateTime (TS)
+	if(obr[&apos;OBR.22&apos;].toString().length&gt;0) objObservationRequest.resultsReportStatusChange= convertTimestampToJSON(obr[&apos;OBR.22&apos;]);
+	
+	// OBR.25 - Result Status (ID)
+	if(obr[&apos;OBR.25&apos;].toString().length&gt;0) objObservationRequest.resultStatus= obr[&apos;OBR.25&apos;][&apos;OBR.25.1&apos;].toString();
+	
+	// OBR.27 - Quantity/Timing (TQ)
+	// convertQuantityTimingToJSON
+	if(obr[&apos;OBR.27&apos;].toString().length&gt;0) objObservationRequest.quantityTiming= convertQuantityTimingToJSON(obr[&apos;OBR.27&apos;]);
+	
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: objObservationRequest= &apos;+objObservationRequest);
+		logger.error(scriptName+&apos;:DEBUG:: observationRequest= &apos;+JSON.stringify(objObservationRequest));
+	}
+	
+	channelMap.put(&apos;observationRequest&apos;,JSON.stringify(objObservationRequest));
+	return objObservationRequest;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>90f2b4d7-4691-49ca-854c-70b8da39b589</id>
+      <name>json_obx_observation_result</name>
+      <revision>4</revision>
+      <lastModified>
+        <time>1672759028368</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 message OBX segment and return a Javascript object
+	
+	Filename: json_obx_observation_result.js
+	@param {String} orc - This will contains the XML representation of the HL7v2 OBX segment
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 OBX segment
+	History:
+	2022-12-27 JER - Modified function name from json_obx_observation to json_obx_observation_result
+*/
+function json_obx_observation_result(obx) {
+
+	var scriptName= &apos;json_obx_observation_result&apos;;
+	var debug= 0;
+	/*
+	logger.error(scriptName+&apos;:DEBUG:: obx= &apos;+obx);;
+	*/
+	var objObservation= {};
+	
+	// OBX.1 - set Id
+	// if(obx[&apos;OBX.1&apos;].toString().length&gt;0) objObservation.setId= convertTimingQuantityToJSON(obx[&apos;OBX.1&apos;]);
+	if(obx[&apos;OBX.1&apos;].toString().length&gt;0) objObservation.setId= obx[&apos;OBX.1&apos;][&apos;OBX.1.1&apos;].toString();
+
+	// OBX.2 - Value Type
+	// if(obx[&apos;OBX.2&apos;].toString().length&gt;0) objObservation.valueType= convertCodedElementToJSON(obx[&apos;OBX.2&apos;]);
+	if(obx[&apos;OBX.2&apos;].toString().length&gt;0) objObservation.valueType= obx[&apos;OBX.2&apos;][&apos;OBX.2.1&apos;].toString();
+	
+	// OBX.3 - Observation Identifier (identifier^text^name of codeSystem^alternate Id^alternate text^name of alternate codeSystem)
+	if(obx[&apos;OBX.3&apos;].toString().length&gt;0) objObservation.observationIdentifier= convertCodedElementToJSON(obx[&apos;OBX.3&apos;]);
+	
+	// OBX.4 - Observation Sub-Id
+	if(obx[&apos;OBX.4&apos;].toString().length&gt;0) objObservation.observationSubId= obx[&apos;OBX.4&apos;][&apos;OBX.4.1&apos;].toString();
+	
+	// OBX.5 - Observation Value
+	if(obx[&apos;OBX.5&apos;].toString().length&gt;0) objObservation.observationValue= obx[&apos;OBX.5&apos;][&apos;OBX.5.1&apos;].toString();
+	
+	// OBX.6 - Units
+	if(obx[&apos;OBX.6&apos;].toString().length&gt;0) objObservation.units= convertCodedElementToJSON(obx[&apos;OBX.6&apos;]);
+	
+	// OBX.7 - References Range
+	if(obx[&apos;OBX.7&apos;].toString().length&gt;0) objObservation.referencesRange= obx[&apos;OBX.7&apos;][&apos;OBX.7.1&apos;].toString();
+	
+	// OBX.8 - Abnormal Flags
+	if(obx[&apos;OBX.8&apos;].toString().length&gt;0) objObservation.deliverToLocation= obx[&apos;OBX.8&apos;][&apos;OBX.8.1&apos;].toString();
+	
+	// OBX.9 - Probability
+	if(obx[&apos;OBX.9&apos;].toString().length&gt;0) objObservation.probability= obx[&apos;OBX.9&apos;][&apos;OBX.9.1&apos;].toString();
+	
+	// OBX.10 - Nature Of Abnormal Test
+	if(obx[&apos;OBX.10&apos;].toString().length&gt;0) objObservation.natureOfAbnormalTest= obx[&apos;OBX.10&apos;][&apos;OBX.10.1&apos;].toString();
+	
+	// OBX.11 - Observation Result Status
+	if(obx[&apos;OBX.11&apos;].toString().length&gt;0) objObservation.observationResultStatus= obx[&apos;OBX.11&apos;][&apos;OBX.11.1&apos;].toString();
+	
+	// OBX.12 - Effective Date of Reference Range
+	if(obx[&apos;OBX.12&apos;].toString().length&gt;0) objObservation.effectiveDateReferenceRange= convertTimestampToJSON(obx[&apos;OBX.12&apos;]);
+	
+	// OBX.13 - User Defined Access Checks
+	if(obx[&apos;OBX.13&apos;].toString().length&gt;0) objObservation.userDefinedAccessChecks= obx[&apos;OBX.13&apos;][&apos;OBX.13.1&apos;].toString();
+	
+	// OBX.14 - Observation Date/Time
+	if(obx[&apos;OBX.14&apos;].toString().length&gt;0) objObservation.observationDateTime= convertTimestampToJSON(obx[&apos;OBX.14&apos;]);
+	
+	// OBX.15 - Producers Id (CE)
+	if(obx[&apos;OBX.15&apos;].toString().length&gt;0) objObservation.producersId= convertCodedElementToJSON(obx[&apos;OBX.15&apos;]);
+	
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: objObservation= &apos;+objObservation);
+		logger.error(scriptName+&apos;:DEBUG:: commonOrder= &apos;+JSON.stringify(objObservation));
+	}
+	
+	// channelMap.put(&apos;PharmacyEncodedOrder&apos;,JSON.stringify(objObservation));
+	return objObservation;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>face095c-44fa-4f83-8492-5a3e9d0a6f16</id>
+      <name>json_orc_common_order</name>
+      <revision>8</revision>
+      <lastModified>
+        <time>1675451690021</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 ORC segment and return a Javascript object
+
+	@param {String} orc - This will contains the XML representation of the HL7v2 ORC segment
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 ORC segment
+	History:
+	2023-02-01 jer - Modified from calling convertCompositeQuantityWithUnitsToJSON to convertCompositeQuantityTimingToJSON() function
+	2023-01-20 JER - Modified to evaluate the provided order control codes to align with a description value
+	2023-01-02 JER - Added enterersLocation orc[ORC.13]
+	2022-12-31 jer - Modified the declaration of orderStatus from orc[&apos;ORC.5&apos;] to orc[&apos;ORC.5&apos;][&apos;ORC.5.1&apos;]
+	2022-04-07 jer - Created from json_pv1_visit(pv1) method to populate visit centric content
+*/
+function json_orc_common_order(orc) {
+
+	var scriptName= &apos;json_orc_common_order&apos;;
+	var debug= 0;
+	/*
+	logger.error(scriptName+&apos;:DEBUG:: orc= &apos;+orc);;
+	*/
+	var objCommonOrder= {};
+	
+	/* 2023-01-20 JER - Modified to evaluate the provided order control codes to align with a description value */
+	if(orc[&apos;ORC.1&apos;].toString().length&gt;0) {
+		var orderControl= orc[&apos;ORC.1&apos;][&apos;ORC.1.1&apos;].toString();
+		
+		switch (orderControl) {
+  			case &apos;CA&apos;:
+    				var strOrderControl= &apos;CANCELLED&apos;;
+    				break;
+  			case &apos;DC&apos;:
+  				var strOrderControl= &apos;DISCONTINUED&apos;;
+  				break;
+  			case &apos;DR&apos;:
+    				var strOrderControl= &apos;DISCONTINUED&apos;;
+  				break;
+  			case &apos;NW&apos;:
+    				var strOrderControl= &apos;NEW&apos;;
+  				break;
+  			case &apos;OC&apos;:
+    				var strOrderControl= &apos;CANCELLED&apos;;
+  				break;
+  			case &apos;OD&apos;:
+    				var strOrderControl= &apos;DISCONTINUED&apos;;
+  				break;
+  			case &apos;RF&apos;:
+    				var strOrderControl= &apos;REFILL&apos;;
+  				break;
+  			case &apos;RO&apos;:
+    				var strOrderControl= &apos;REPLACEMENT&apos;;
+  				break;
+  			case &apos;XO&apos;:
+    				var strOrderControl= &apos;MODIFIED&apos;;
+  				break;
+  			default:
+    				var strOrderControl= &apos;MODIFIED&apos;;
+    				break;
+		}
+		objCommonOrder.orderControl= strOrderControl;
+	} else {
+		objCommonOrder.orderControl= &apos;MODIFIED&apos;;
+	}
+	if(orc[&apos;ORC.2&apos;].toString().length&gt;0) objCommonOrder.placerOrderNumber= convertEntityIdentifierToJSON(orc[&apos;ORC.2&apos;]);
+	if(orc[&apos;ORC.3&apos;].toString().length&gt;0) objCommonOrder.fillerOrderNumber= convertEntityIdentifierToJSON(orc[&apos;ORC.3&apos;]);
+	if(orc[&apos;ORC.4&apos;].toString().length&gt;0) objCommonOrder.placerGroupNumber= convertEntityIdentifierToJSON(orc[&apos;ORC.4&apos;]);
+	// 2022-12-31 jer - Modified the declaration of orderStatus from orc[&apos;ORC.5&apos;] to orc[&apos;ORC.5&apos;][&apos;ORC.5.1&apos;]
+	if(orc[&apos;ORC.5&apos;].toString().length&gt;0) objCommonOrder.orderStatus= orc[&apos;ORC.5&apos;][&apos;ORC.5.1&apos;].toString();
+	if(orc[&apos;ORC.6&apos;].toString().length&gt;0) objCommonOrder.responseFlag= orc[&apos;ORC.6&apos;].toString();
+
+	// 2023-02-01 jer - Modified from calling convertCompositeQuantityWithUnitsToJSON to convertCompositeQuantityTimingToJSON() function
+	// 2022-04-07 jer - Added convertCompositeQuantityWithUnitsToJSON code template
+	// if(orc[&apos;ORC.7&apos;].toString().length&gt;0) objCommonOrder.quantityTiming= convertCompositeQuantityWithUnitsToJSON(orc[&apos;ORC.7&apos;]);
+	if(orc[&apos;ORC.7&apos;].toString().length&gt;0) objCommonOrder.quantityTiming=  convertCompositeQuantityTimingToJSON(orc[&apos;ORC.7&apos;]);
+	
+	if(orc[&apos;ORC.8&apos;].toString().length&gt;0) {
+		var objParentOrder= {};
+		for(i= 0;i&lt;orc[&apos;ORC.8&apos;].children().length;i++) {
+			if (i== 0) {
+				var placerAssignedIdentifier= convertEntityIdentifierToJSON(orc[&apos;ORC.8&apos;][&apos;ORC.8.1&apos;]);
+				objParentOrder.placedAssignedIdentifier= placerAssignedIdentifier;	
+			}
+			if (i== 1) {
+				var fillerAssignedIdentifier= convertEntityIdentifierToJSON(orc[&apos;ORC.8&apos;][&apos;ORC.8.2&apos;]);
+				objParentOrder.fillerAssignedIdentifier= fillerAssignedIdentifier;	
+			}
+		}
+		objCommonOrder.parentOrder= JSON.stringify(objParentOrder);
+	}
+	if(orc[&apos;ORC.9&apos;].toString().length&gt;0)  objCommonOrder.dateTimeOfTransaction= convertTimestampToJSON(orc[&apos;ORC.9&apos;]);
+	if(orc[&apos;ORC.10&apos;].toString().length&gt;0) objCommonOrder.enteredBy= convertExtendedCompositeIDNumberAndNameToJSON(orc[&apos;ORC.10&apos;]);
+	if(orc[&apos;ORC.11&apos;].toString().length&gt;0) objCommonOrder.verifiedBy= convertExtendedCompositeIDNumberAndNameToJSON(orc[&apos;ORC.11&apos;]);
+	if(orc[&apos;ORC.12&apos;].toString().length&gt;0) objCommonOrder.orderingProvider= convertExtendedCompositeIDNumberAndNameToJSON(orc[&apos;ORC.12&apos;]);
+	// 2023-01-02 JER - Added enterersLocation orc[ORC.13]
+	if(orc[&apos;ORC.13&apos;].toString().length&gt;0) objCommonOrder.enterersLocation= convertPersonLocationToJSON(orc[&apos;ORC.13&apos;]);
+	if(orc[&apos;ORC.15&apos;].toString().length&gt;0) objCommonOrder.orderedEffectiveDateTime= convertTimestampToJSON(orc[&apos;ORC.15&apos;]);
+	
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: objCommonOrder= &apos;+objCommonOrder);
+		logger.error(scriptName+&apos;:DEBUG:: commonOrder= &apos;+JSON.stringify(objCommonOrder));
+	}
+	
+	channelMap.put(&apos;commonOrder&apos;,JSON.stringify(objCommonOrder));
+	return objCommonOrder;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>0cf1a598-a8e4-4e52-a0fb-640de35367fa</id>
+      <name>json_pid_gender</name>
+      <revision>3</revision>
+      <lastModified>
+        <time>1658534603167</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to handle Patient Gender parsing PID.8
+
+	@param {String} arg1 - arg1 description
+	@return {String} return description
+*/
+function json_pid_gender(pid, patient) {
+
+	var scriptName= &apos;json_pid_gender&apos;;
+	var gender= pid[&apos;PID.8&apos;][&apos;PID.8.1&apos;].toString().toUpperCase();
+
+//	logger.error(scriptName+&apos;:DEBUG:: pidGender= &apos;+pid+&apos; patient= &apos;+patient);
+	
+	if (gender == &apos;F&apos; || gender == &apos;FEMALE&apos;){
+		patient.gender= &apos;Female&apos;;
+	}
+	
+	else if (gender == &apos;M&apos; || gender == &apos;MALE&apos;){
+		patient.gender= &apos;Male&apos;;
+	}
+	
+	else if (gender == &apos;O&apos; || gender == &apos;OTHER&apos;){
+		patient.gender= &apos;Other&apos;;
+	}
+	
+	else if (gender == &apos;U&apos; || gender == &apos;UNKNOWN&apos;){
+		patient.gender= &apos;Unknown&apos;;
+	}
+	else{
+		patient.gender= pid[&apos;PID.8&apos;][&apos;PID.8.1&apos;].toString();
+	}
+	
+//	logger.error(scriptName+&apos;:DEBUG:: patient= &apos;+JSON.stringify(patient));
+	return patient;
+		
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>3f1d523c-515d-4ec8-805b-2deb20470993</id>
+      <name>json_pid_patient</name>
+      <revision>13</revision>
+      <lastModified>
+        <time>1669746107967</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 PID segment and return a Javascript object
+
+	@param {String} pid - This will contains the XML representation of the HL7v2 PID segment
+	@param {String} patient - This will contains the XML representation of the HL7v2 PV1 segment
+	
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 PID segment
+	History:
+	2022-11-15 JER - Modified to leverage the hl7_get_patient_identifier code_template function to modularize the get patient identifiers attributes
+	2022-08-26 JER - Modify from PID-3.1 to leverage PID-4.1 as the QS1 global patient identifier across organizations
+	2022-08-26 JER - Modified from mpi to mpiIdentifier and mpiDomain to globalAssigningAuthorityName
+	2022-08-26 JER - Modified from mrn and mrnDomain to identifier and assigningAuthorityName
+	2022-03-07 jer - Modified using substring(0,7) -&gt; patient.dob= pid[&apos;PID.7&apos;][&apos;PID.7.1&apos;].toString().substring(0,8) and patient.gender= pid[&apos;PID.8&apos;][&apos;PID.8.1&apos;].toString().substring(0,1);
+	2022-02-25 jer - Modified to include the call json_pv1_patient(pv1, patient) method to populate visit-centric content
+*/
+function json_pid_patient(pid, patient) {
+
+	var scriptName= &apos;json_pid_patient&apos;;
+	var debug= 0;
+
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: pid= &apos;+pid+&apos; patient= &apos;+patient);
+		logger.error(scriptName+&apos;:DEBUG:: $(coviderPatientIdLocation)= &apos;+$(&apos;coviderPatientIdLocation&apos;));
+	} 
+	var patient= {};
+
+	// 2022-11-14 JER - Modified to leverage the Configuration Setting coviderPatientIdLocation (either PID-2, PID-3, PID-4, etc.)	
+	if($(&apos;coviderPatientIdLocation&apos;)== &apos;PID.3&apos;) {
+		// 2022-08-26 JER - Modify from PID-3.1 to leverage PID-4.1 as the QS1 global patient identifier across organizations
+		var arrIdentifiers= hl7_get_patient_identifier(pid[&apos;PID.3&apos;]);	
+		if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: hl7_get_patient_identifier(pid3) returns arrIdentifier: &apos;+JSON.stringify(arrIdentifiers)); }
+	} else if($(&apos;coviderPatientIdLocation&apos;)== &apos;PID.4&apos;) {
+		// 2022-08-26 JER - Modify from PID-3.1 to leverage PID-4.1 as the QS1 global patient identifier across organizations
+		var arrIdentifiers= hl7_get_patient_identifier(pid[&apos;PID.4&apos;]);	
+		if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: hl7_get_patient_identifier(pid4) returns arrIdentifier: &apos;+JSON.stringify(arrIdentifiers)); }
+	} else if($(&apos;coviderPatientIdLocation&apos;)== &apos;PID.2&apos;) {
+		// 2022-08-26 JER - Modify from PID-3.1 to leverage PID-4.1 as the QS1 global patient identifier across organizations
+		var arrIdentifiers= hl7_get_patient_identifier(pid[&apos;PID.2&apos;]);	
+		if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: hl7_get_patient_identifier(pid2) returns arrIdentifier: &apos;+JSON.stringify(arrIdentifiers)); }
+	} else {
+		// 2022-08-26 JER - Modify from PID-3.1 to leverage PID-4.1 as the QS1 global patient identifier across organizations
+		var arrIdentifiers= hl7_get_patient_identifier(pid[&apos;PID.3&apos;]);	
+		if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: DEFAULT hl7_get_patient_identifier(pid3) returns arrIdentifier: &apos;+JSON.stringify(arrIdentifiers)); }
+	} // end if 
+
+	// set channelMap variables for both mrn, mrnDomain and mpi, mpiDomain
+	for each(identifier in arrIdentifiers) {
+		// 2022-02-22 jer - verify if undefined or defined with value of MRN
+		if(debug&gt;0) {
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; identifier: &apos;+JSON.stringify(identifier));
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; identifier.patientIdentifier:  &apos;+identifier.patientIdentifier.toString());
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; identifier.patientIdentifierDomain: &apos;+identifier.patientIdentifierDomain.toString());
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; identifier.identifierTypeCode: &apos;+identifier.identifierTypeCode.toString());
+			logger.error(&apos;DEBUG::&apos;+scriptName+&apos; typeof identifier.identifierTypeCode: &apos;+typeof(identifier.identifierTypeCode)+&apos; toString.length: &apos;+identifier.identifierTypeCode.toString().length);
+		}
+
+		if((typeof(identifier)!== &apos;undefined&apos;) || (identifier.identifierTypeCode.toString().indexOf(&apos;MRN&apos;)&gt;-1)) {
+			logger.error(&apos;A&apos;);
+			if(identifier.patientIdentifierDomain != null) {
+				logger.error(&apos;B&apos;);
+				// 2022-08-26 JER - Modified from mrn and mrnDomain to identifier and assigningAuthorityName
+				patient.identifier= identifier.patientIdentifier;
+				patient.assigningAuthorityName= identifier.patientIdentifierDomain;
+				channelMap.put(&apos;mrn&apos;,patient.identifier); 
+				channelMap.put(&apos;mrnDomain&apos;,patient.assigningAuthorityName);
+			}
+		} // end if 
+		else if (identifier.patientIdentifierDomain.toString().indexOf(&apos;MR&apos;)&gt;-1) {
+			logger.error(&apos;C&apos;);
+			if(identifier.patientIdentifierDomain != null) {
+				logger.error(&apos;D&apos;);
+				// 2022-08-26 JER - Modified from mpi to mpiIdentifier and mpiDomain to globalAssigningAuthorityName
+				patient.mpiIdentifier= identifier.patientIdentifier;
+				patient.globalAssigningAuthorityName= identifier.patientIdentifierDomain;
+				channelMap.put(&apos;mpi&apos;,patient.identifier); 
+				channelMap.put(&apos;mpiDomain&apos;,patient.assigningAuthorityName);
+			}
+		} // end if 
+	} // end for each
+
+	patient.accountNumber= 	pid[&apos;PID.18&apos;][&apos;PID.18.1&apos;].toString();
+	patient.firstName= 		pid[&apos;PID.5&apos;][&apos;PID.5.2&apos;].toString();
+	patient.middleName=  	pid[&apos;PID.5&apos;][&apos;PID.5.3&apos;].toString();
+	patient.lastName=  		pid[&apos;PID.5&apos;][&apos;PID.5.1&apos;].toString();
+	patient.dob= 			pid[&apos;PID.7&apos;][&apos;PID.7.1&apos;].toString().substring(0,8);
+
+	//	patient.gender= pid[&apos;PID.8&apos;][&apos;PID.8.1&apos;].toString().substring(0,1);
+	//	2022-03-10 PP - gender, per EHRbridge request and discussion with JER
+	patient= json_pid_gender(pid, patient);
+
+	// patient= json_pv1_visit(pv1, patient);
+			
+	// if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: patient= &apos;+JSON.stringify(patient)); }
+	return patient;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>27b01dc9-fa98-48ff-af65-82929d6dc4d7</id>
+      <name>json_pv1_clinician</name>
+      <revision>4</revision>
+      <lastModified>
+        <time>1673290110742</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 message PV1 segment  and return a Javascript object
+	
+	Filename: json_pv1_clinician.js
+	@param {String} pv1 - This will contains the XML representation of the HL7v2 PV1 segment
+	@return {String} return - Returning the Javascript object representation of the converted HL7v2 PV1 segment
+	History:
+	2023-01-09 JER - Modified all physicians to Doctor
+	
+*/
+function json_pv1_clinician(pv1) {
+
+	var scriptName= &apos;json_pv1_clinician&apos;;
+	var debug= 0;
+	if(debug&gt;0) { logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pv1= &apos;+pv1); }
+
+	var arrClinician= new Array();
+	
+	// Clinician object
+	var objClinician= {};
+	
+	// PV1.7 - attending physician
+	// PV1.7.1 - Id Number
+	if(pv1[&apos;PV1.7&apos;][&apos;PV1.7.1&apos;].toString().length&gt;0) objClinician.idNumber= pv1[&apos;PV1.7&apos;][&apos;PV1.7.1&apos;].toString();
+
+	// PV1.7.2 - Last/Family Name
+	if(pv1[&apos;PV1.7&apos;][&apos;PV1.7.2&apos;].toString().length&gt;0) objClinician.lastName= pv1[&apos;PV1.7&apos;][&apos;PV1.7.2&apos;].toString();
+
+	// PV1.7.3 - First/Given Name
+	if(pv1[&apos;PV1.7&apos;][&apos;PV1.7.3&apos;].toString().length&gt;0) objClinician.firstName= pv1[&apos;PV1.7&apos;][&apos;PV1.7.3&apos;].toString();
+
+	// PV1.7.9.1 - Assigning Authority - Namespace Id
+	if(pv1[&apos;PV1.7&apos;][&apos;PV1.7.9&apos;][&apos;PV1.7.9.1&apos;].toString().length&gt;0) objClinician.assigningAuthority= pv1[&apos;PV1.7&apos;][&apos;PV1.7.9&apos;][&apos;PV1.7.9.1&apos;].toString();
+
+	if(pv1[&apos;PV1.7&apos;][&apos;PV1.7.1&apos;].toString().length&gt;0) {
+		// 2023-01-09 JER - Modified all physicians to Doctor
+		// objClinician.clinicanType= &apos;Attending Physician&apos;;
+		objClinician.clinicanType= &apos;Doctor&apos;;
+		arrClinician.push(objClinician);
+	} // end if 
+	
+	// Clinician object
+	var objClinician= {};
+	
+	// PV1.8 - referring physician
+	// PV1.8.1 - Id Number
+	if(pv1[&apos;PV1.8&apos;][&apos;PV1.8.1&apos;].toString().length&gt;0) objClinician.idNumber= pv1[&apos;PV1.8&apos;][&apos;PV1.8.1&apos;].toString();
+
+	// PV1.8.2 - Last/Family Name
+	if(pv1[&apos;PV1.8&apos;][&apos;PV1.8.2&apos;].toString().length&gt;0) objClinician.lastName= pv1[&apos;PV1.8&apos;][&apos;PV1.8.2&apos;].toString();
+
+	// PV1.8.3 - First/Given Name
+	if(pv1[&apos;PV1.8&apos;][&apos;PV1.8.3&apos;].toString().length&gt;0) objClinician.firstName= pv1[&apos;PV1.8&apos;][&apos;PV1.8.3&apos;].toString();
+
+	// PV1.8.9.1 - Assigning Authority - Namespace Id
+	if(pv1[&apos;PV1.8&apos;][&apos;PV1.8.9&apos;][&apos;PV1.8.9.1&apos;].toString().length&gt;0) objClinician.assigningAuthority= pv1[&apos;PV1.8&apos;][&apos;PV1.8.9&apos;][&apos;PV1.8.9.1&apos;].toString();
+
+	if(pv1[&apos;PV1.8&apos;][&apos;PV1.8.1&apos;].toString().length&gt;0) {
+		// 2023-01-09 JER - Modified all physicians to Doctor
+		// objClinician.clinicanType= &apos;Referring Physician&apos;;	
+		objClinician.clinicanType= &apos;Doctor&apos;;
+		arrClinician.push(objClinician);
+	} // end if 
+	
+	// Clinician object
+	var objClinician= {};
+	
+	// PV1.9 - consulting physician
+	// PV1.9.1 - Id Number
+	if(pv1[&apos;PV1.9&apos;][&apos;PV1.9.1&apos;].toString().length&gt;0) objClinician.idNumber= pv1[&apos;PV1.9&apos;][&apos;PV1.9.1&apos;].toString();
+
+	// PV1.9.2 - Last/Family Name
+	if(pv1[&apos;PV1.9&apos;][&apos;PV1.9.2&apos;].toString().length&gt;0) objClinician.lastName= pv1[&apos;PV1.9&apos;][&apos;PV1.9.2&apos;].toString();
+
+	// PV1.9.3 - First/Given Name
+	if(pv1[&apos;PV1.9&apos;][&apos;PV1.9.3&apos;].toString().length&gt;0) objClinician.firstName= pv1[&apos;PV1.9&apos;][&apos;PV1.9.3&apos;].toString();
+
+	// PV1.9.9.1 - Assigning Authority - Namespace Id
+	if(pv1[&apos;PV1.9&apos;][&apos;PV1.9.9&apos;][&apos;PV1.9.9.1&apos;].toString().length&gt;0) objClinician.assigningAuthority= pv1[&apos;PV1.9&apos;][&apos;PV1.9.9&apos;][&apos;PV1.9.9.1&apos;].toString();
+
+	if(pv1[&apos;PV1.9&apos;][&apos;PV1.9.1&apos;].toString().length&gt;0) {
+		// 2023-01-09 JER - Modified all physicians to Doctor
+		// objClinician.clinicanType= &apos;Consulting Physician&apos;;
+		objClinician.clinicanType= &apos;Doctor&apos;;
+		arrClinician.push(objClinician);
+	} // end if 
+
+	// Clinician object
+	var objClinician= {};
+	
+	// PV1.17 - admitting physician
+	for each(admittingPhysician in pv1[&apos;PV1.17&apos;]) {
+		// PV1.17.1 - Id Number
+		if(admittingPhysician[&apos;PV1.17.1&apos;].toString().length&gt;0) objClinician.idNumber= admittingPhysician[&apos;PV1.17.1&apos;].toString();
+
+		// PV1.17.2 - Last/Family Name
+		if(admittingPhysician[&apos;PV1.17.2&apos;].toString().length&gt;0) objClinician.lastName= admittingPhysician[&apos;PV1.17.2&apos;].toString();
+
+		// PV1.17.3 - First/Given Name
+		if(admittingPhysician[&apos;PV1.17.3&apos;].toString().length&gt;0) objClinician.firstName= admittingPhysician[&apos;PV1.17.3&apos;].toString();
+
+		// PV1.17.9.1 - Assigning Authority - Namespace Id
+		if(admittingPhysician[&apos;PV1.17.9&apos;][&apos;PV1.17.9.1&apos;].toString().length&gt;0) objClinician.assigningAuthority= admittingPhysician[&apos;PV1.17.9&apos;][&apos;PV1.17.9.1&apos;].toString();
+
+		if(admittingPhysician[&apos;PV1.17.1&apos;].toString().length&gt;0) {
+			// 2023-01-09 JER - Modified all physicians to Doctor
+			// objClinician.clinicanType= &apos;Admitting Physician&apos;;
+			objClinician.clinicanType= &apos;Doctor&apos;;
+			arrClinician.push(objClinician);
+		} // end if 
+	} // end for each
+
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: clinician= &apos;+JSON.stringify(arrClinician));
+	}
+	
+	channelMap.put(&apos;Clinicians&apos;,JSON.stringify(arrClinician));
+	return arrClinician;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>9d68bf38-3dce-405f-b051-6098c894cd17</id>
+      <name>json_pv1_encounter</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1676394827377</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 PV1 segment and return a Javascript object
+
+	@param {String} pv1 - This will contains the XML representation of the HL7v2 PV1 segment
+	@param {String} patient - This will contains the XML representation of the Javascript patient object
+	
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 PV1 segment
+	History:
+	2023-02-14 JER - Evaluate to capture the encounterType from PV1.2.1
+	2022-11-14 JER - Modified from the json_pv1_visit to json_pv1_encounter and removed dependency on the patient object
+*/
+function json_pv1_encounter(pv1) {
+	
+	var scriptName= &apos;json_pv1_encounter&apos;;
+	var debug= 0;
+	var encounter= {};
+
+	if(debug&gt;0) {
+		logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pv1= &apos;+JSON.stringify(pv1));
+	}
+	
+	// 2022-08-26 JER - JSON stringify the globalChannel variable - evaluate organization if defined and toString.length GT 0 to persist to visit.organization
+	// &quot;organization&quot; : &quot;\&quot;QS1\&quot;&quot;,
+	var organization= JSON.stringify(channelMap.get(&apos;organization&apos;)).replace(/[^\w\s]/gi, &apos;&apos;);
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; typeof(organization): &apos;+typeof(organization)+&apos; length: &apos;+organization.length);
+	
+	if((typeof(organization)!== &apos;undefined&apos;)&amp;&amp;(organization.toString().length&gt;0)) {
+		encounter.organization= organization;
+	} // end if
+
+	// 2023-02-14 JER - Evaluate to capture the encounterType from PV1.2.1
+	if(typeof(pv1[&apos;PV1.2&apos;])!== &apos;undefined&apos;) {
+		if(pv1[&apos;PV1.2&apos;][&apos;PV1.2.1&apos;].toString().length&gt;0) {
+			var encounterTypeCode= pv1[&apos;PV1.2&apos;][&apos;PV1.2.1&apos;].toString();
+			if(encounterTypeCode== &apos;E&apos;) {
+				encounter.encounterType= &apos;Emergency&apos;;
+			} else if(encounterTypeCode== &apos;I&apos;) {
+				encounter.encounterType= &apos;Inpatient&apos;;  	
+			} else if((encounterTypeCode== &apos;O&apos;)||(encounterTypeCode== &apos;R&apos;)) {
+				encounter.encounterType= &apos;Outpatient&apos;;
+			} else if(encounterTypeCode== &apos;P&apos;) {
+				encounter.encounterType= &apos;PreAdmit&apos;;
+			}
+		} else {
+			encounter.encounterType= &apos;&apos;;
+		}
+	} // end if 
+
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; typeof(pv1[PV1.3])= &apos;+typeof(pv1[&apos;PV1.3&apos;])+&apos; pv1[PV1.3]= &apos;+pv1[&apos;PV1.3&apos;]); 
+	// 2022-08-26 JER - Modified from using object: patient to visit
+
+	if(typeof(pv1[&apos;PV1.3&apos;])!== &apos;undefined&apos;) {
+		if(pv1[&apos;PV1.3&apos;][&apos;PV1.3.4&apos;].toString().length&gt;0) {
+			encounter.facility= pv1[&apos;PV1.3&apos;][&apos;PV1.3.4&apos;].toString();
+		} else {
+			encounter.facility= &apos;&apos;;
+		}
+	} else {
+		if((typeof(channelMap.get(&apos;organization&apos;))!== &apos;undefined&apos;)&amp;&amp;(channelMap.get(&apos;organization&apos;).toString().length&gt;0)) {
+			encounter.facility= channelMap.get(&apos;organization&apos;);
+		} else {
+			encounter.facility= &apos;&apos;;
+		} // end if 
+	} // end if
+
+	if(pv1[&apos;PV1.3&apos;][&apos;PV1.3.1&apos;].toString()) {
+		encounter.unit= 	pv1[&apos;PV1.3&apos;][&apos;PV1.3.1&apos;].toString();
+	} else {
+		encounter.unit=	&apos;&apos;;
+	}
+
+	if(pv1[&apos;PV1.3&apos;][&apos;PV1.3.2&apos;].toString()) {
+		encounter.room= 	pv1[&apos;PV1.3&apos;][&apos;PV1.3.2&apos;].toString();
+	} else {
+		encounter.room=	&apos;&apos;;
+	}
+
+	if(pv1[&apos;PV1.3&apos;][&apos;PV1.3.3&apos;].toString()) {
+		encounter.bedID= 	pv1[&apos;PV1.3&apos;][&apos;PV1.3.3&apos;].toString();
+	} else {
+		encounter.bedID=	&apos;&apos;;
+	} // end if 
+		
+
+	if(pv1[&apos;PV1.6&apos;][&apos;PV1.6.1&apos;].toString().length&gt;0) {
+		encounter.prior_unit= 	pv1[&apos;PV1.6&apos;][&apos;PV1.6.1&apos;].toString();
+		encounter.prior_room= 	pv1[&apos;PV1.6&apos;][&apos;PV1.6.2&apos;].toString();
+		encounter.prior_bedID=	pv1[&apos;PV1.6&apos;][&apos;PV1.6.3&apos;].toString();
+	} else {
+		encounter.prior_unit= 	&apos;&apos;;
+		encounter.prior_room= 	&apos;&apos;;
+		encounter.prior_bedID=	&apos;&apos;;
+	}
+
+	// 2022-03-02 JER - Acquire device_Id/room to synchronize data between the Caregility Admin Portal and data table on the BJC side.
+	if((typeof(pv1[&apos;PV1.3&apos;][&apos;PV1.3.9&apos;])!== &apos;undefined&apos;)&amp;&amp;(pv1[&apos;PV1.3&apos;][&apos;PV1.3.9&apos;].toString().length&gt;0)) {
+		encounter.deviceID= pv1[&apos;PV1.3&apos;][&apos;PV1.3.9&apos;].toString();
+		channelMap.put(&apos;deviceID&apos;,encounter.deviceID);
+	} // end if 
+
+	if(pv1[&apos;PV1.19&apos;][&apos;PV1.19.1&apos;].toString()){
+		encounter.encounter_identifier= pv1[&apos;PV1.19&apos;][&apos;PV1.19.1&apos;].toString();
+	} else {
+		encounter.encounter_identifier= &apos;&apos;;
+	} // end if  
+
+	// 2022-03-10 PP - per Greg&apos;s email dated 03/14, Admit/Discharge in YYYYMMDD format
+	if(pv1[&apos;PV1.44&apos;][&apos;PV1.44.1&apos;].toString()){
+		encounter.admissionDate= pv1[&apos;PV1.44&apos;][&apos;PV1.44.1&apos;].toString().substring(0,8);
+	} // end if 
+	
+	// 2022-08-26 JER - Modified from using object: patient to visit
+	if(pv1[&apos;PV1.45&apos;][&apos;PV1.45.1&apos;].toString()){
+		encounter.dischargeDate= pv1[&apos;PV1.45&apos;][&apos;PV1.45.1&apos;].toString().substring(0,8);
+	} else {
+		encounter.dischargeDate= &apos;&apos;;
+	}
+	
+	if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: encounter= &apos;+JSON.stringify(encounter)); }
+
+	return encounter;
+
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>562b1fd8-8825-47dd-a811-f836954fde33</id>
+      <name>json_pv1_visit</name>
+      <revision>20</revision>
+      <lastModified>
+        <time>1661554449534</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 PV1 segment and return a Javascript object
+
+	@param {String} pv1 - This will contains the XML representation of the HL7v2 PV1 segment
+	@param {String} patient - This will contains the XML representation of the Javascript patient object
+	
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 PV1 segment
+	History:
+	2022-08-26 JER - JSON stringify the globalChannel variable - evaluate organization if defined and toString.length GT 0 to persist to visit.organization
+	2022-08-26 JER - Modified from using object: patient to visit and 
+	2022-07-22 JER - Removed dependencies on pid segment
+	2022-03-07 JER - Added channelMap.put(&apos;deviceID&apos;,patient.deviceID)
+	2022-03-02 JER - Acquire device_Id/room to synchronize data between the Caregility Admin Portal and data table on the BJC side.
+	2022-02-28 JER Modified to copy patient.organization to patient.facility if no value for PV1.3.4 element value
+*/
+function json_pv1_visit(pv1, patient) {
+
+	var scriptName= &apos;json_pv1_visit&apos;;
+	var debug= 0;
+	var visit= {};
+
+	if(debug&gt;0) {
+		logger.error(&apos;DEBUG::&apos;+scriptName+&apos; pv1= &apos;+pv1+&apos; patient: &apos;+JSON.stringify(patient));
+	}
+	
+	if(debug&gt;0) { logger.error(&apos;DEBUG::&apos;+scriptName+&apos; typeof(pv1[PV1.3][PV1.3.4])= &apos;+typeof(pv1[&apos;PV1.3&apos;][&apos;PV1.3.4&apos;])+&apos; pv1[PV1.3][PV1.3.4]= &apos;+pv1[&apos;PV1.3&apos;][&apos;PV1.3.4&apos;].toString()); }
+
+	// 2022-08-26 JER - JSON stringify the globalChannel variable - evaluate organization if defined and toString.length GT 0 to persist to visit.organization
+	// &quot;organization&quot; : &quot;\&quot;QS1\&quot;&quot;,&#xd;
+	var organization= JSON.stringify(channelMap.get(&apos;organization&apos;)).replace(/[^\w\s]/gi, &apos;&apos;);
+	if(debug&gt;0) { logger.error(&apos;DEBUG::&apos;+scriptName+&apos; typeof(organization): &apos;+typeof(organization)+&apos; length: &apos;+organization.length); }
+	
+	if((typeof(organization)!== &apos;undefined&apos;)&amp;&amp;(organization.toString().length&gt;0)) {
+		visit.organization= organization;
+	} // end if
+
+	// 2022-08-26 JER - Modified from using object: patient to visit
+	if((typeof(pv1[&apos;PV1.3&apos;][&apos;PV1.3.4&apos;])!== &apos;undefined&apos;)&amp;&amp;(pv1[&apos;PV1.3&apos;][&apos;PV1.3.4&apos;].toString().length&gt;0)) {
+		visit.facility= pv1[&apos;PV1.3&apos;][&apos;PV1.3.4&apos;].toString();
+	} else {
+		if((typeof(channelMap.get(&apos;organization&apos;))!== &apos;undefined&apos;)&amp;&amp;(channelMap.get(&apos;organization&apos;).toString().length&gt;0)) {
+			visit.facility= channelMap.get(&apos;organization&apos;);
+		} // end if 
+	} // end if
+	
+	visit.unit= 	pv1[&apos;PV1.3&apos;][&apos;PV1.3.1&apos;].toString();
+	visit.room= 	pv1[&apos;PV1.3&apos;][&apos;PV1.3.2&apos;].toString();
+	visit.bedID= 	pv1[&apos;PV1.3&apos;][&apos;PV1.3.3&apos;].toString();
+		
+	/* 2022-02-27 JER - removed as not storing prior location (i.e. unit, room, bed)
+	if(pv1[&apos;PV1.6&apos;][&apos;PV1.6.1&apos;].toString().length&gt;0) {
+		patient.prior_unit= 	pv1[&apos;PV1.6&apos;][&apos;PV1.6.1&apos;].toString();
+		patient.prior_room= 	pv1[&apos;PV1.6&apos;][&apos;PV1.6.2&apos;].toString();
+		patient.prior_bedID=	pv1[&apos;PV1.6&apos;][&apos;PV1.6.3&apos;].toString();
+	}
+	*/
+
+	// 2022-03-02 JER - Acquire device_Id/room to synchronize data between the Caregility Admin Portal and data table on the BJC side.
+	if((typeof(pv1[&apos;PV1.3&apos;][&apos;PV1.3.9&apos;])!== &apos;undefined&apos;)&amp;&amp;(pv1[&apos;PV1.3&apos;][&apos;PV1.3.9&apos;].toString().length&gt;0)) {
+		visit.deviceID= pv1[&apos;PV1.3&apos;][&apos;PV1.3.9&apos;].toString();
+		channelMap.put(&apos;deviceID&apos;,visit.deviceID);
+	} // end if 
+
+	// 2022-08-26 JER - Modified from using object: patient to visit
+	// 2022-03-10 PP - per QA call on 03/09 and Discussion with JER, adding Admit/Discharge timeline
+	// 2022-03-10 PP - per Greg&apos;s email dated 03/14, Admit/Discharge in YYYYMMDD format
+	if(pv1[&apos;PV1.44&apos;][&apos;PV1.44.1&apos;].toString()){
+	//	patient.admissionDate= pv1[&apos;PV1.44&apos;][&apos;PV1.44.1&apos;].toString();
+		visit.admissionDate= pv1[&apos;PV1.44&apos;][&apos;PV1.44.1&apos;].toString().substring(0,8);
+	} // end if 
+	
+	// 2022-08-26 JER - Modified from using object: patient to visit
+	if(pv1[&apos;PV1.45&apos;][&apos;PV1.45.1&apos;].toString()){
+	//	patient.dischargeDate= pv1[&apos;PV1.45&apos;][&apos;PV1.45.1&apos;].toString();
+		visit.dischargeDate= pv1[&apos;PV1.45&apos;][&apos;PV1.45.1&apos;].toString().substring(0,8);
+	}
+	
+	if(debug&gt;0) { logger.error(scriptName+&apos;:DEBUG:: visit= &apos;+JSON.stringify(patient)); }
+	// 2022-08-26 JER - Modified from using object: patient to visit
+	return visit;
+
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>b8a31168-fc3a-4a2c-8999-284b33104067</id>
+      <name>json_rol_clinician</name>
+      <revision>8</revision>
+      <lastModified>
+        <time>1673286103839</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 message ROL segment and return a Javascript object
+	
+	Filename: json_rol_clinician.js
+	@param {String} rol - This will contains the XML representation of the HL7v2 ROL segment
+	@return {String} return - Returning the Javascript object representation of the converted HL7v2 ROL segment
+	History:
+	
+*/
+function json_rol_clinician(rol) {
+
+	var scriptName= &apos;json_rol_clinician&apos;;
+	var debug= 0;
+	//if(debug&gt;0) { 
+		logger.error(&apos;DEBUG::&apos;+scriptName+&apos; rol typeof= &apos;+typeof(rol)+&apos; rol: &apos;+rol); 
+	//}
+	
+	// Clinician object
+	var objClinician= {};
+	
+	// ROL.1 - Role Instance Identifier (EI)
+	if(rol[&apos;ROL.1&apos;][&apos;ROL.1.1&apos;].toString().length&gt;0) objClinician.id= rol[&apos;ROL.1&apos;][&apos;ROL.1.1&apos;].toString();
+
+	// ROL.2 - Action Code (ID)
+	if(rol[&apos;ROL.2&apos;][&apos;ROL.2.1&apos;].toString().length&gt;0) objClinician.actionCode= rol[&apos;ROL.2&apos;][&apos;ROL.2.1&apos;].toString();
+
+	// ROL.3 - Role (Identifier, Text, CodingSystemName, CodingSystemNameOid (CE)
+	logger.error(&apos;DEBUG::&apos;+scriptName+&apos; typeof rol[ROL.3]: &apos;+typeof(rol[&apos;ROL.3&apos;])+&apos; stringify: &apos;+rol[&apos;ROL.3&apos;]);
+	if(typeof(rol[&apos;ROL.3&apos;])!== &apos;undefined&apos;) {
+		objClinician.role= convertCodedElementToJSON(rol[&apos;ROL.3&apos;]);
+	} else {
+		objClinician.role= &apos;&apos;;
+	} // end if 
+	// if(debug&gt;0) 
+		logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.role: &apos;+JSON.stringify(objClinician.role));
+		
+	// ROL.4 - Role Person (XCN)
+	logger.error(&apos;DEBUG::&apos;+scriptName+&apos; typeof rol[ROL.4]: &apos;+typeof(rol[&apos;ROL.4&apos;])+&apos; stringify: &apos;+rol[&apos;ROL.4&apos;]);
+	if(typeof(rol[&apos;ROL.4&apos;])!== &apos;undefined&apos;) {
+		objClinician.rolePerson= convertExtendedCompositeIDNumberAndNameToJSON(rol[&apos;ROL.4&apos;]);
+	} else {
+		objClinician.rolePerson= &apos;&apos;;
+	} // end if 
+	// if(debug&gt;0) 
+		logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.rolePerson: &apos;+JSON.stringify(objClinician.rolePerson));
+	
+	// ROL.5 - Role Begin DateTime (TS)
+	if(typeof(rol[&apos;ROL.5&apos;])!== &apos;undefined&apos;) {
+		objClinician.roleBeginDatetime= convertTimestampToJSON(rol[&apos;ROL&apos;][&apos;ROL.5&apos;]);
+	} else {
+		objClinician.roleBeginDatetime= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.roleBeginDatetime: &apos;+objClinician.roleBeginDatetime);
+	
+	// ROL.6 - Role End DateTime (TS)
+	if(typeof(rol[&apos;ROL.6&apos;])!== &apos;undefined&apos;) {
+		objClinician.roleEndDatetime= convertTimestampToJSON(rol[&apos;ROL&apos;][&apos;ROL.6&apos;]);
+	} else {
+		objClinician.roleEndDateTime= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.roleEndDateTime: &apos;+objClinician.roleEndDateTime);
+	
+	// ROL.7 - Role Duration
+	if(typeof(rol[&apos;ROL.7&apos;])!== &apos;undefined&apos;) {
+		objClinician.roleDuration= convertCodedElementToJSON(rol[&apos;ROL&apos;][&apos;ROL.7&apos;]);
+	} else {
+		objClinician.roleDuration= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.roleDuration: &apos;+objClinician.roleDuration);
+
+	// ROL.8 - Role Action Reason
+	if(typeof(rol[&apos;ROL.8&apos;])!== &apos;undefined&apos;) {
+		objClinician.roleActionReason= convertCodedElementToJSON(rol[&apos;ROL&apos;][&apos;ROL.8&apos;]);
+	} else {
+		objClinician.roleActionReason= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.roleActionReason: &apos;+objClinician.roleActionReason);
+
+	// ROL.9 - Provider Type
+	if(typeof(rol[&apos;ROL.9&apos;])!== &apos;undefined&apos;) {
+		objClinician.providerType= convertCodedElementToJSON(rol[&apos;ROL&apos;][&apos;ROL.9&apos;]);
+	} else {
+		objClinician.providerType= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.providerType: &apos;+objClinician.providerType);
+
+	// ROL.10 - Organization Unit Type
+	if(typeof(rol[&apos;ROL.10&apos;])!== &apos;undefined&apos;) {
+		objClinician.organizationUnitType= convertCodedElementToJSON(rol[&apos;ROL&apos;][&apos;ROL.10&apos;]);
+	} else {
+		objClinician.organizationUnitType= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.organizationUnitType: &apos;+objClinician.organizationUnitType);
+
+	// ROL.11 - Office/Home Address
+	if(typeof(rol[&apos;ROL.11&apos;])!== &apos;undefined&apos;) {
+		objClinician.officeAddress= convertExtendedAddressToJSON(rol[&apos;ROL&apos;][&apos;ROL.11&apos;]);
+	} else {
+		objClinician.officeAddress= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.officeAddress: &apos;+objClinician.officeAddress);
+
+	// ROL.12 - Phone
+	if(typeof(rol[&apos;ROL.12&apos;])!== &apos;undefined&apos;) {
+		objClinician.phone= convertExtendedTelecommunicationNumberToJSON(rol[&apos;ROL&apos;][&apos;ROL.12&apos;]);
+	} else {
+		objClinician.phone= &apos;&apos;;
+	} // end if 
+	if(debug&gt;0) logger.error(&apos;DEBUG::&apos;+scriptName+&apos; objClinician.phone: &apos;+objClinician.phone);
+
+
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: clinician= &apos;+JSON.stringify(objClinician));
+	}
+	
+	channelMap.put(&apos;Clinician&apos;,JSON.stringify(objClinician));
+	return objClinician;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>4797d1ea-5a48-4474-80d6-9fce7cac4506</id>
+      <name>json_rxe_pharmacy_encoded_order</name>
+      <revision>2</revision>
+      <lastModified>
+        <time>1689376220851</time>
+        <timezone>America/Chicago</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 Pharmacy/Treatment Encoded Order (RXE) segment and return a Javascript object
+
+	@param {String} orc - This will contains the XML representation of the HL7v2 RXE segment
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 RXE segment
+	History:
+	2022-04-12 jer - Added RXE-11 through RXE-44
+	2022-04-11 jer - Added RXE-6 through RXE-10
+	2022-04-07 jer - Created from json_rxe_timing_quantity(rxe) method to populate visit centric content
+*/
+function json_rxe_pharmacy_encoded_order(rxe) {
+
+	var scriptName= &apos;json_rxe_pharmacy_encoded_order&apos;;
+	var debug= 0;
+	/*
+	logger.error(scriptName+&apos;:DEBUG:: rxe= &apos;+rxe);;
+	*/
+	var objPharmacyEncodedOrder= {};
+	
+	// RXE.1 - Quantity/Timing
+	if(rxe[&apos;RXE.1&apos;].toString().length&gt;0) objPharmacyEncodedOrder.quantityTiming= convertTimingQuantityToJSON(rxe[&apos;RXE.1&apos;]);
+	// if(rxe[&apos;RXE.1&apos;].toString().length&gt;0) objPharmacyEncodedOrder.setId= rxe[&apos;RXE.1&apos;][&apos;RXE.1.1&apos;].toString();
+
+	// RXE.2 - Give Code
+	if(rxe[&apos;RXE.2&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveCode= convertCodedElementToJSON(rxe[&apos;RXE.2&apos;]);
+	
+	// RXE.3 - Give Amount - Minimum
+	if(rxe[&apos;RXE.3&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveAmountMinimum= rxe[&apos;RXE.3&apos;][&apos;RXE.3.1&apos;].toString();
+	
+	// RXE.4 - Give Amount - Maximum
+	if(rxe[&apos;RXE.4&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveAmountMaximum= rxe[&apos;RXE.4&apos;][&apos;RXE.4.1&apos;].toString();
+	
+	// RXE.5 - Give Units
+	if(rxe[&apos;RXE.5&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveUnits= convertCodedElementToJSON(rxe[&apos;RXE.5&apos;]);
+	
+	// RXE.6 - Give Dosage Form
+	if(rxe[&apos;RXE.6&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveDosageForm= convertCodedElementToJSON(rxe[&apos;RXE.6&apos;]);
+	
+	// RXE.7 - Provider&apos;s Administration Instructions
+	if(rxe[&apos;RXE.7&apos;].toString().length&gt;0) objPharmacyEncodedOrder.provideAdminInstructions= convertCodedElementToJSON(rxe[&apos;RXE.7&apos;]);
+	
+	// RXE.8 - Deliver-To Location
+	if(rxe[&apos;RXE.8&apos;].toString().length&gt;0) objPharmacyEncodedOrder.deliverToLocation= 
+	convertLocationAddressVariationToJSON(rxe[&apos;RXE.8&apos;]);
+	
+	// RXE.9 - Substitution Status
+	if(rxe[&apos;RXE.9&apos;].toString().length&gt;0) objPharmacyEncodedOrder.substitutionStatus= rxe[&apos;RXE.9&apos;][&apos;RXE.9.1&apos;].toString();
+	
+	// RXE.10 - Dispense Amount
+	if(rxe[&apos;RXE.10&apos;].toString().length&gt;0) objPharmacyEncodedOrder.dispenseAmount= rxe[&apos;RXE.10&apos;][&apos;RXE.10.1&apos;].toString();
+	
+	// RXE.11 - Dispense Units
+	if(rxe[&apos;RXE.11&apos;].toString().length&gt;0) objPharmacyEncodedOrder.dispenseUnits= convertCodedElementToJSON(rxe[&apos;RXE.11&apos;]);
+	
+	// RXE.12 - Number of Refills
+	if(rxe[&apos;RXE.12&apos;].toString().length&gt;0) objPharmacyEncodedOrder.substitutionStatus= rxe[&apos;RXE.12&apos;][&apos;RXE.12.1&apos;].toString();
+	
+	// RXE.13 - Order Provider&apos;s DEA Number
+	if(rxe[&apos;RXE.13&apos;].toString().length&gt;0) objPharmacyEncodedOrder.orderingProviderDEANumber=convertExtendedCompositeIDNumberAndNameToJSON(rxe[&apos;RXE.13&apos;]);
+	
+	// RXE.14 - Pharamcist/Treatment Supplier Verifier Id
+	if(rxe[&apos;RXE.14&apos;].toString().length&gt;0) objPharmacyEncodedOrder.pharmacistSupplierVerifierId=convertExtendedCompositeIDNumberAndNameToJSON(rxe[&apos;RXE.14&apos;]); 
+
+	// RXE.15 - Prescription Number
+	if(rxe[&apos;RXE.15&apos;].toString().length&gt;0) objPharmacyEncodedOrder.prescriptionNumber= rxe[&apos;RXE.15&apos;][&apos;RXE.15.1&apos;].toString();
+	
+	// RXE.16 - Number of Refills Remaining
+	if(rxe[&apos;RXE.16&apos;].toString().length&gt;0) objPharmacyEncodedOrder.refillsRemaining= rxe[&apos;RXE.16&apos;][&apos;RXE.16.1&apos;].toString();
+	
+	// RXE.17 - Number of Refills/Doses Dispensed
+	if(rxe[&apos;RXE.17&apos;].toString().length&gt;0) objPharmacyEncodedOrder.refillsDispensed= rxe[&apos;RXE.17&apos;][&apos;RXE.17.1&apos;].toString();
+
+	// RXE.18 - DateTime of Most Recent Refill or Dose Dispensed
+	if(rxe[&apos;RXE.18&apos;].toString().length&gt;0) objPharmacyEncodedOrder.mostRecentRefillOrDispensed=convertTimestampToJSON(rxe[&apos;RXE.18&apos;]);
+
+	// RXE.19 - Total Daily Dose
+	if(rxe[&apos;RXE.19&apos;].toString().length&gt;0) objPharmacyEncodedOrder.totalDailyDose= convertCompositeQuantityWithUnitsToJSON(rxe[&apos;RXE.19&apos;]);
+
+	// RXE.20 - Needs Human Review
+	if(rxe[&apos;RXE.20&apos;].toString().length&gt;0) objPharmacyEncodedOrder.refillsDispensed= rxe[&apos;RXE.20&apos;][&apos;RXE.20.1&apos;].toString();
+
+	// RXE.21 - Pharmacy/Treatment Suppliers Special Dispensing Instructions
+	if(rxe[&apos;RXE.21&apos;].toString().length&gt;0) objPharmacyEncodedOrder.pharmacySuppliersSpecialDispensingInstructions= convertCodedElementToJSON(rxe[&apos;RXE.21&apos;]);
+
+	// RXE.22 - Give Per
+	if(rxe[&apos;RXE.22&apos;].toString().length&gt;0) objPharmacyEncodedOrder.givePer= rxe[&apos;RXE.22&apos;][&apos;RXE.22.1&apos;].toString();
+	
+	// RXE.23 - Give Rate Amount
+	if(rxe[&apos;RXE.23&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveRateAmount= rxe[&apos;RXE.23&apos;][&apos;RXE.23.1&apos;].toString();
+
+	// RXE.24 - Give Rate Units
+	if(rxe[&apos;RXE.24&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveRateUnits= convertCodedElementToJSON(rxe[&apos;RXE.24&apos;]);
+
+	// RXE.25 - Give Strength
+	if(rxe[&apos;RXE.25&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveStrength= rxe[&apos;RXE.25&apos;][&apos;RXE.25.1&apos;].toString();
+
+	// RXE.26 - Give Strength Units
+	if(rxe[&apos;RXE.26&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveStrengthUnits= convertCodedElementToJSON(rxe[&apos;RXE.26&apos;]);
+
+	// RXE.27 - Give Indication
+	if(rxe[&apos;RXE.27&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveIndication= convertCodedElementToJSON(rxe[&apos;RXE.27&apos;]);
+	
+	// RXE.28 - Dispense Package Size
+	if(rxe[&apos;RXE.28&apos;].toString().length&gt;0) objPharmacyEncodedOrder.dispensePackageSize= rxe[&apos;RXE.28&apos;][&apos;RXE.28.1&apos;].toString();
+
+	// RXE.29 - Dispense Package Size Unit
+	if(rxe[&apos;RXE.29&apos;].toString().length&gt;0) objPharmacyEncodedOrder.dispensePackageSizeUnit= convertCodedElementToJSON(rxe[&apos;RXE.29&apos;]);
+
+	// RXE.30 - Dispense Package Method
+	if(rxe[&apos;RXE.30&apos;].toString().length&gt;0) objPharmacyEncodedOrder.dispensePackageMethod= rxe[&apos;RXE.30&apos;][&apos;RXE.30.1&apos;].toString();
+
+	// RXE.31 - Supplementary Code
+	if(rxe[&apos;RXE.31&apos;].toString().length&gt;0) objPharmacyEncodedOrder.supplementaryCode= convertCodedElementToJSON(rxe[&apos;RXE.31&apos;]);
+
+	// RXE.32 - Original Order DateTime
+	if(rxe[&apos;RXE.32&apos;].toString().length&gt;0) objPharmacyEncodedOrder.originalOrderDateTime=convertTimestampToJSON(rxe[&apos;RXE.32&apos;]);
+
+	// RXE.33 - Give Drug Strength Volume
+	if(rxe[&apos;RXE.33&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveDrugStengthVolume= rxe[&apos;RXE.33&apos;][&apos;RXE.33.1&apos;].toString();
+
+	// RXE.34 - Give Drug Stength Volume Units
+	if(rxe[&apos;RXE.34&apos;].toString().length&gt;0) objPharmacyEncodedOrder.giveDrugStengthVolumeUnits= convertCodedWithExceptionsToJSON(rxe[&apos;RXE.34&apos;]);
+	
+	// RXE.35 - Controlled Substance Schedule
+	if(rxe[&apos;RXE.35&apos;].toString().length&gt;0) objPharmacyEncodedOrder.controlledSubstanceSchedule= convertCodedWithExceptionsToJSON(rxe[&apos;RXE.35&apos;]);
+
+	// RXE.36 - Formulary Status
+	if(rxe[&apos;RXE.36&apos;].toString().length&gt;0) objPharmacyEncodedOrder.formularyStatus= rxe[&apos;RXE.36&apos;][&apos;RXE.36.1&apos;].toString();
+
+	// RXE.37 - Pharmaceutical Substance Alternative
+	if(rxe[&apos;RXE.37&apos;].toString().length&gt;0) objPharmacyEncodedOrder.pharmaceuticalSubstanceAlternative= convertCodedWithExceptionsToJSON(rxe[&apos;RXE.37&apos;]);
+
+	// RXE.38 - Pharmacy of Most Recent Fill
+	if(rxe[&apos;RXE.38&apos;].toString().length&gt;0) objPharmacyEncodedOrder.pharmacyMostRecentFill= convertCodedWithExceptionsToJSON(rxe[&apos;RXE.38&apos;]);
+
+	// RXE.39 - Initial Dispense Amount
+	if(rxe[&apos;RXE.39&apos;].toString().length&gt;0) objPharmacyEncodedOrder.initialDispenseAmount= rxe[&apos;RXE.39&apos;][&apos;RXE.39.1&apos;].toString();
+
+	// RXE.40 - Dispensing Pharmacy
+	if(rxe[&apos;RXE.40&apos;].toString().length&gt;0) objPharmacyEncodedOrder.dispensingPharmacy= convertCodedWithExceptionsToJSON(rxe[&apos;RXE.40&apos;]);
+
+	// RXE.41 - Dispensing Pharmacy Address
+	if(rxe[&apos;RXE.41&apos;].toString().length&gt;0) objPharmacyEncodedOrder.dispensingPharmacyAddress= convertExtendedAddressToJSON(rxe[&apos;RXE.41&apos;]);
+
+	// RXE.42 - Deliver to Patient Location
+	if(rxe[&apos;RXE.42&apos;].toString().length&gt;0) objPharmacyEncodedOrder.deliverToPatientLocation= convertPersonLocationToJSON(rxe[&apos;RXE.42&apos;]);
+
+	// RXE.43 - Deliver to Address
+	if(rxe[&apos;RXE.43&apos;].toString().length&gt;0) objPharmacyEncodedOrder.deliverToAddress= convertExtendedAddressToJSON(rxe[&apos;RXE.43&apos;]);
+
+	// RXE.44 - Pharmacy Order Type
+	if(rxe[&apos;RXE.44&apos;].toString().length&gt;0) objPharmacyEncodedOrder.pharmacyOrderType= rxe[&apos;RXE.44&apos;][&apos;RXE.44.1&apos;].toString();
+
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: objPharmacyEncodedOrder= &apos;+objPharmacyEncodedOrder);
+		logger.error(scriptName+&apos;:DEBUG:: commonOrder= &apos;+JSON.stringify(objPharmacyEncodedOrder));
+	}
+	
+	channelMap.put(&apos;PharmacyEncodedOrder&apos;,JSON.stringify(objPharmacyEncodedOrder));
+	return objPharmacyEncodedOrder;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+    <codeTemplate version="3.12.0">
+      <id>1f72c115-ff36-4790-98ee-3876f305fdd8</id>
+      <name>json_tq1_timing_quantity</name>
+      <revision>1</revision>
+      <lastModified>
+        <time>1650911273836</time>
+        <timezone>GMT-06:00</timezone>
+      </lastModified>
+      <contextSet>
+        <delegate>
+          <contextType>SOURCE_RECEIVER</contextType>
+          <contextType>DESTINATION_RESPONSE_TRANSFORMER</contextType>
+          <contextType>DESTINATION_DISPATCHER</contextType>
+          <contextType>DESTINATION_FILTER_TRANSFORMER</contextType>
+          <contextType>SOURCE_FILTER_TRANSFORMER</contextType>
+        </delegate>
+      </contextSet>
+      <properties class="com.mirth.connect.model.codetemplates.BasicCodeTemplateProperties">
+        <type>FUNCTION</type>
+        <code>/**
+	Desc:  this JS code template is to parse HL7v2 TQ1 segment and return a Javascript object
+
+	@param {String} orc - This will contains the XML representation of the HL7v2 TQ1 segment
+	@return {String} return - Returning the Javascript object representation of the conveted HL7v2 TQ1 segment
+	History:
+	2022-04-07 jer - Created from json_tq1_timing_quantity(tq1) method to populate visit centric content
+*/
+function json_tq1_timing_quantity(tq1) {
+
+	var scriptName= &apos;json_tq1_timing_quantity&apos;;
+	var debug= 0;
+	/*
+	logger.error(scriptName+&apos;:DEBUG:: tq1= &apos;+tq1);;
+	*/
+	var objTimingQuantity= {};
+	
+	if(tq1[&apos;TQ1.1&apos;].toString().length&gt;0) objTimingQuantity.setId= tq1[&apos;TQ1.1&apos;][&apos;TQ1.1.1&apos;].toString();
+	// 2022-04-07 jer - Added convertCompositeQuantityWithUnitsToJSON code template
+	if(tq1[&apos;TQ1.2&apos;].toString().length&gt;0) objTimingQuantity.quantity= convertCompositeQuantityWithUnitsToJSON(tq1[&apos;TQ1.2&apos;]);
+	if(tq1[&apos;TQ1.3&apos;].toString().length&gt;0) objTimingQuantity.repeatPattern= convertRepeatPatternToJSON(tq1[&apos;TQ1.3&apos;]);
+	if(tq1[&apos;TQ1.4&apos;].toString().length&gt;0) objTimingQuantity.explicitTime= tq1[&apos;TQ1.4&apos;][&apos;TQ1.4.1&apos;].toString();
+	if(tq1[&apos;TQ1.5&apos;].toString().length&gt;0) objTimingQuantity.relativeTimeAndUnits= convertCompositeQuantityWithUnitsToJSON(tq1[&apos;TQ1.5&apos;]);
+	if(tq1[&apos;TQ1.6&apos;].toString().length&gt;0) objTimingQuantity.serviceDuration= convertCompositeQuantityWithUnitsToJSON(tq1[&apos;TQ1.6&apos;]);
+	if(tq1[&apos;TQ1.7&apos;].toString().length&gt;0) objTimingQuantity.startDateTime= convertTimestampToJSON(tq1[&apos;TQ1.7&apos;]);
+	if(tq1[&apos;TQ1.8&apos;].toString().length&gt;0) objTimingQuantity.endDateTime= convertTimestampToJSON(tq1[&apos;TQ1.8&apos;]);
+	if(tq1[&apos;TQ1.9&apos;].toString().length&gt;0) objTimingQuantity.priority= convertCodedWithExceptionsToJSON(tq1[&apos;TQ1.9&apos;]);	
+	if(tq1[&apos;TQ1.10&apos;].toString().length&gt;0) objTimingQuantity.conditionText= tq1[&apos;TQ1.10&apos;][&apos;TQ1.10.1&apos;].toString();
+	if(tq1[&apos;TQ1.11&apos;].toString().length&gt;0) objTimingQuantity.textInstruction= tq1[&apos;TQ1.11&apos;][&apos;TQ1.11.1&apos;].toString();
+	if(tq1[&apos;TQ1.12&apos;].toString().length&gt;0) objTimingQuantity.conjunction= tq1[&apos;TQ1.12&apos;][&apos;TQ1.12.1&apos;].toString();
+	if(tq1[&apos;TQ1.13&apos;].toString().length&gt;0) objTimingQuantity.occurenceDuration= convertCompositeQuantityWithUnitsToJSON(tq1[&apos;TQ1.13&apos;]);
+	if(tq1[&apos;TQ1.14&apos;].toString().length&gt;0) objTimingQuantity.totalOccurrences= tq1[&apos;TQ1.14&apos;][&apos;TQ1.14.1&apos;].toString();
+	
+	if(debug&gt;0) {
+		logger.error(scriptName+&apos;:DEBUG:: objTimingQuantity= &apos;+objTimingQuantity);
+		logger.error(scriptName+&apos;:DEBUG:: commonOrder= &apos;+JSON.stringify(objTimingQuantity));
+	}
+	
+	channelMap.put(&apos;timingQuantity&apos;,JSON.stringify(objTimingQuantity));
+	return objTimingQuantity;
+	
+}</code>
+      </properties>
+    </codeTemplate>
+  </codeTemplates>
+</codeTemplateLibrary>
